@@ -1,0 +1,27 @@
+body
+{
+    margin: 0%;
+}
+.hubble
+{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.imagetxt
+{
+    position: absolute;
+    bottom: 8%;
+    left: 2%;
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hubble img
+{
+    width: 100%;
+    height: 100%;
+}
+.content
+{
+    background-color: rgb(216, 216, 216);
+}

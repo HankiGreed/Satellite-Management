@@ -1,0 +1,571 @@
+,Name,CountryOrigin,Organisation,Purpose,ClassOfOrbit,Perigee,Apogee,Inclination,TimePeriod,Mass,Power,DateOfLaunch,LifeSpan,LaunchVehicle
+1,Aalto-1 ,Finland,University of Aalto,Technology Development,LEO,497,517,97.45,94.7,4.5,4.5,2017-06-23,2,PSLV
+3,"ABS-2 (Koreasat-8, ST-3)",Multinational,Asia Broadcast Satellite Ltd.,Communications,GEO,35778,35793,0.08,1436.03,6330,16000,2014-02-06,15,Ariane 5 ECA
+6,"ABS-4 (ABS-2i, MBSat, Mobile Broadcasting Satellite, Han Byul)",Multinational,Asia Broadcast Satellite Ltd.,Communications,GEO,35780,35793,0.01,1436.1,4143,7400,2004-03-13,12,Atlas 3
+7,"ABS-6 (ABS-1, LMI-1, Lockheed Martin-Intersputnik-1)",Multinational,Asia Broadcast Satellite Ltd.,Communications,GEO,35777,35794,0.01,1436.08,2894,6800,1999-09-26,15,Proton
+8,"ABS-7 (Koreasat 3, Mugungwha 3)",Multinational,Asia Broadcast Satellite Ltd.,Communications,GEO,35780,35791,0.01,1436.06,3500,4800,1999-09-04,15,Ariane
+34,"Afghansat-1 (Eutelsat 28B, Eutelsat 48B, Eutelsat W2M, Eutelsat 48D)",Multinational,EUTELSAT S.A.,Communications,GEO,35764,35808,0.12,1436.08,3460,7000,2008-12-20,15,Ariane 5
+35,AIM (Aeronomy of Ice in Mesosphere),USA,"Center for Atmospheric Sciences, Hampton University/NASA",Earth Observation,LEO,544,552,97.9,96.2,215,216,2007-04-25,2,Pegasus XL
+53,Amazonas-2,Spain,Hispamar (subsidiary of Hispasat - Spain),Communications,GEO,35767,35805,0.03,1436.08,5465,15300,2009-10-01,15,Ariane 5
+54,Amazonas-3,Spain,Hispamar (subsidiary of Hispasat - Spain),Communications,GEO,35781,35791,0.03,1436.05,6265,14000,2013-02-07,15,Ariane 5 ECA
+57,"AMC-1 (Americom 1, GE-1)",USA,SES S.A.,Communications,GEO,35772,35800,0.03,1436.1,2783,6500,1996-09-08,15,Atlas 2A
+58,"AMC-10 (Americom-10, GE 10)",USA,SES S.A.,Communications,GEO,35775,35797,0.01,1436.09,2315,6500,2004-02-05,15,Atlas 2AS
+59,"AMC-11 (Americom-11, GE 11)",USA,SES S.A.,Communications,GEO,35774,35797,0.04,1436.07,2340,6500,2004-05-19,15,Atlas 2AS
+63,"AMC-2 (Americom 2, GE-2)",USA,SES S.A.,Communications,GEO,35774,35798,0.05,1436.1,2648,6500,1997-01-30,15,Ariane 44L
+64,AMC-21 (Americom 21),USA,SES S.A.,Communications,GEO,35778,35793,3,1436.1,2500,5000,2008-08-14,15,Ariane 5 ECA
+67,"AMC-7 (Americom-7, GE-7)",USA,SES S.A.,Communications,GEO,35773,35798,0.01,1436.08,1935,6500,2000-09-14,15,Ariane 5G
+68,"AMC-8 (Americom-8, GE-8, Aurora 3)",USA,SES S.A.,Communications,GEO,35773,35798,0.03,1436.07,2015,3300,2000-12-19,15,Ariane 5G
+74,Anik F1 ,Canada,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35778,35793,0.02,1436.08,4710,15500,2000-11-21,15,Ariane 44L
+75,Anik F1R,Canada,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35777,35795,0.02,1436.1,4500,10000,2005-09-09,15,Proton M
+76,Anik F2 ,Canada,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35781,35790,0.01,1436.08,5910,16000,2004-07-18,15,Ariane 5
+77,Anik F3,Canada,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35778,35794,0.01,1436.1,4715,17500,2007-04-09,15,Proton M
+78,Anik G1,Canada,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35773,35799,0.01,1436.08,4905,17500,2013-04-15,15,Proton M
+92,Apstar 9,China,APT Satellite Holdings Ltd.,Communications,GEO,35782,35788,0.12,1436.01,5200,10500,2015-10-16,15,Long March 3B
+94,Arabsat 6A,Multinational,Arab Satellite Communications Org. (ASCO),Communications,GEO,35774,35811,0.01,1436,6465,20000,2019-04-11,15,Falcon Heavy
+95,Arabsat 7F (Nimiq 1) ,Multinational,Arab Satellite Communications Org. (ASCO),Communications,GEO,35778,35794,0.01,1436.09,3600,8600,1999-05-20,12,Proton D
+99,ArSat 2,Argentina,ArSat,Communications,GEO,35786,35801,0.01,1436.06,2977,4600,2015-09-30,15,Ariane 5 ECA
+100,AsiaSat-3S (Asiasat 3SA),China,Asia Satellite Telecommunications Co. Ltd.,Communications,GEO,35780,35792,0.02,1436.07,3480,10000,1999-03-21,15,Proton K
+101,AsiaSat-4 ,China,Asia Satellite Telecommunications Co. Ltd.,Communications,GEO,35784,35789,0,1436.1,4137,9500,2003-04-12,15,Atlas 3B
+105,AsiaSat-8,China,Asia Satellite Telecommunications Co. Ltd.,Communications,GEO,35781,35793,0.07,1436.1,4500,8500,2014-08-05,15,Falcon 9
+107,AsiaStar ,USA,1Worldspace,Communications,GEO,35773,35801,0.02,1436.15,2775,5600,2000-03-21,15,Ariane 5G
+111,Astra 1D ,Luxembourg,SES S.A.,Communications,GEO,35776,35795,1.15,1436.08,2924,3300,1994-11-01,15,Ariane 42P
+112,Astra 1F ,Luxembourg,SES S.A.,Communications,GEO,35778,35797,0.03,1436.15,3010,4400,1996-04-18,15,Proton K
+113,Astra 1G ,Luxembourg,SES S.A.,Communications,GEO,35780,35791,0.04,1436.08,3379,6600,1997-12-02,15,Proton K
+114,Astra 1H ,Luxembourg,SES S.A.,Communications,GEO,35776,35794,0.06,1436.04,3690,6600,1999-06-18,15,Proton D
+115,Astra 1KR,Luxembourg,SES S.A.,Communications,GEO,35766,35807,0.08,1436.1,4332,12000,2006-04-20,15,Atlas 5
+116,Astra 1L,Luxembourg,SES S.A.,Communications,GEO,35772,35798,0.05,1436.03,4500,13000,2007-05-04,15,Ariane 5 ECA
+117,Astra 1M,Luxembourg,SES S.A.,Communications,GEO,35804,35852,0.14,1438.2,5345,9900,2008-11-05,15,Proton M
+119,Astra 2A ,Luxembourg,SES S.A.,Communications,GEO,35776,35797,0.08,1436.12,3635,7000,1998-08-30,15,Proton K
+120,Astra 2B ,Luxembourg,SES S.A.,Communications,GEO,35772,35801,0.07,1436.11,3315,7800,2000-09-14,14,Ariane 5G
+121,Astra 2C ,Luxembourg,SES S.A.,Communications,GEO,35768,35804,0.07,1436.12,3643,7000,2001-06-16,15,Proton K
+122,Astra 2D,Luxembourg,SES S.A.,Communications,GEO,35770,35802,0.07,1436.1,1420,1500,2000-12-19,15,Ariane 5G
+123,Astra 2E,Luxembourg,SES S.A.,Communications,GEO,35781,35793,0.11,1436.12,6052,13000,2013-09-29,15,Proton M
+125,Astra 2G,Luxembourg,SES S.A.,Communications,GEO,35785,35789,0.09,1436.11,6000,13000,2014-12-27,15,Proton M
+126,Astra 3A ,Luxembourg,SES S.A.,Communications,GEO,35770,35804,0.06,1436.07,1500,1500,2002-03-29,10,Ariane 44L
+127,Astra 3B,Luxembourg,SES S.A.,Communications,GEO,35768,35806,0.08,1436.11,5471,10000,2010-05-21,15,Ariane 5 ECA
+142,Badr 6 (Arabsat 4AR),Multinational,Arab Satellite Communications Org. (ASCO),Communications,GEO,35768,35805,0.05,1436.1,3400,6000,2008-07-07,15,Ariane 5 ECA
+193,"BeijinGalaxy-1 (Beijing 1 [Tsinghua], Tsinghau-2, China DMC+4)",China,Beijing Landview Mapping Information Technology Co. Ltd (BLMIT),Earth Observation,LEO,681,703,97.9,98.6,166,50,2005-10-27,7,Kosmos 3M
+196,Bird 2 (Bispectral InfraRed Detector 2),Germany,Institute of Space Sensor Technology and Planetary Exploration,Earth Observation/Technology Development,LEO,500,521,97.9,94.8,92,120,2001-10-22,1.5,PSLV C3
+199,BKA 2 (BelKA 2),Belarus,National Academy of Sciences,Earth Observation,LEO,503,507,97.5,94.7,400,300,2012-07-22,5,Soyuz-Fregat
+210,Brazilsat B-4 (Brasilsat B-4),Brazil,Embratel Star One,Communications,GEO,35772,35800,0.07,1436.09,2495,1800,2000-08-17,12,Ariane 44LP
+227,Calipso (Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation),France/USA,Centre National d'Etudes Spatiales (CNES)/NASA,Earth Science,LEO,702,703,98.2,98.8,587,550,2006-04-28,3,Delta 2
+233,CartoSat 1 (IRS P5),India,Indian Space Research Organization (ISRO),Earth Observation,LEO,618,619,97.9,97.1,1560,1100,2005-05-05,6,PSLV C6
+241,Cassiope (CAScade SmallSat and Ionospheric Polar Explorer),Canada,Canadian Space Agency,Earth Science,LEO,325,1486,81,103.11,490,600,2013-09-29,2,Falcon 9
+245,CBERS 4 (China-Brazil Earth Resources Satellite 4),China/Brazil,China National Space Administration (China)/National Institute for Space Research (Brazil),Earth Observation,LEO,738,748,98.55,99.67,1980,2300,2014-12-07,3,Long March 4B
+256,Chandra X-Ray Observatory (CXO),USA,National Aeronautics and Space Administration (NASA) Goddard Space Flight Center,Space Science,Elliptical,9999,138825,28.5,3808.92,4742,2500,1999-07-23,5,Space Shuttle (STS 93)
+277,Cloudsat,USA,National Aeronautics and Space Administration (NASA)/Colorado State University,Earth Observation,LEO,702,703,98.2,98.8,848,570,2006-04-28,2,Delta 2
+280,COMSATBw-1 (COmmunications SATellite für BundesWehr),Germany,Armed Forces,Communications,GEO,35773,35799,0.05,1436.1,2440,3500,2009-10-01,15,Ariane 5
+281,COMSATBw-2 (COmmunications SATellite für BundesWehr),Germany,Armed Forces,Communications,GEO,35780,35794,0.08,1436.11,2440,3500,2010-05-21,15,Ariane 5
+283,Coriolis (Windsat),USA,US Air Force/ US Navy/NASA,Earth Observation,LEO,820,841,98.8,101.5,817,1174,2003-01-06,3,Titan 2
+290,"COSMIC-A (Formosat-3A, Constellation Observing System for Meteorology, Ionosphere and Climate)",Taiwan/USA,"National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",Earth Observation,LEO,764,836,72,100.9,70,46,2006-04-15,2,Minotaur-1
+291,"COSMIC-B (Formosat-3B, Constellation Observing System for Meteorology, Ionosphere and Climate)",Taiwan/USA,"National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",Earth Observation,LEO,769,831,72,100.9,70,46,2006-04-15,2,Minotaur-1
+292,"COSMIC-D (Formosat-3D, Constellation Observing System for Meteorology, Ionosphere and Climate)",Taiwan/USA,"National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",Earth Observation,LEO,669,746,72,98.9,70,46,2006-04-15,2,Minotaur-1
+293,"COSMIC-E (Formosat-3E, Constellation Observing System for Meteorology, Ionosphere and Climate)",Taiwan/USA,"National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",Earth Observation,LEO,751,849,72,100.9,70,46,2006-04-15,2,Minotaur-1
+294,"COSMIC-F (Formosat-3F, Constellation Observing System for Meteorology, Ionosphere and Climate)",Taiwan/USA,"National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",Earth Observation,LEO,772,828,72,100.9,70,46,2006-04-15,2,Minotaur-1
+302,COSMO-Skymed 1 (Constellation of small Satellites for Mediterranean basin Observation),Italy,Italian Space Agency/Ministry of Defense,Earth Observation,LEO,622,623,97.9,97.2,1700,3600,2007-06-08,5,Delta 7000
+322,"Daichi-2 (Advanced Land Observing Satellite-2, ALOS 2 2)",Japan,Japan Aerospace Exploration Agency (JAXA),Earth Observation,LEO,630,635,97.88,97.36,2120,5200,2014-05-24,7,H2A
+328,Deimos 2 ,Spain,Deimos Imaging/DMC International Imaging (DMCII),Earth Observation,LEO,597,619,97.99,96.85,310,450,2014-06-19,10,Dnepr
+337,DirecTV-10,USA,"DirecTV, Inc.",Communications,GEO,35785,35788,0.04,1436.1,5900,18000,2007-07-07,15,Proton M
+339,DirecTV-12,USA,"DirecTV, Inc.",Communications,GEO,35785,35786,0.09,1436.04,5900,8700,2009-12-29,15,Breeze M
+340,DirecTV-14,USA,"DirecTV, Inc.",Communications,GEO,35930,35933,0.02,1443.51,5900,20000,2014-12-06,15,Ariane 5 ECA
+342,DirecTV-4S ,USA,"DirecTV, Inc.",Communications,GEO,35780,35792,0.05,1436.09,4300,8100,2001-11-27,15,Ariane 44LP
+344,DirecTV-7S ,USA,"DirecTV, Inc.",Communications,GEO,35774,35797,0.01,1436.1,5483,13000,2004-05-04,15,Zenit 3SL
+345,DirecTV-8,USA,"DirecTV, Inc.",Communications,GEO,35777,35796,0.02,1436.1,3800,8200,2005-05-22,12,Proton M/Breeze M
+346,DirecTV-9S,USA,"DirecTV, Inc.",Communications,GEO,35774,35798,0.03,1436.1,5500,13900,2006-10-13,15,Ariane 5 ECA
+349,DLR Tubsat ,Germany,Deutsches Zentrum für Luft- und Raumfahrt,Earth Science,LEO,712,732,98.6,99.2,45,120,1999-05-26,1,PSLV C2
+353,"DMSP 5D-2 F14 (Defense Meteorological Satellites Program, USA 131)",USA,DoD/NOAA,Earth Observation,LEO,842,855,98.9,101.9,1134,900,1997-04-04,5,Titan 2
+354,"DMSP 5D-3 F15 (Defense Meteorological Satellites Program, USA 147)",USA,DoD/NOAA,Earth Observation,LEO,837,851,98.9,101.8,1152,900,1999-12-12,5,Titan 2
+355,"DMSP 5D-3 F16 (Defense Meteorological Satellites Program, USA 172)",USA,DoD/NOAA,Earth Observation,LEO,843,852,98.9,101.87,1154,900,2003-10-18,5,Titan 2
+356,"DMSP 5D-3 F17 (Defense Meteorological Satellites Program, USA 173)",USA,DoD/NOAA,Earth Observation,LEO,842,855,98.79,101.89,1154,900,2006-11-04,5,Delta 4
+357,"DMSP 5D-3 F18 (Defense Meteorological Satellites Program, USA 210)",USA,DoD/NOAA,Earth Observation,LEO,842,859,98.93,101.94,1155,900,2009-10-18,5,Atlas 5
+577,"DRTS (Data Relay Test Satellite, Kodama)",Japan,National Space Development Agency,Technology Development,GEO,35775,35799,0.02,1436.12,2650,2100,2002-09-10,7,H2A
+578,"DSCS III-A3 (USA 167, DSCS III-A3) (Defense Satellite Communications System)",USA,US Air Force,Communications,GEO,35771,35802,0.03,1436.12,1156,1240,2003-03-11,10,Atlas 2A
+579,"DSCS III-B6 (USA 170, DSCS III B-6) (Defense Satellite Communications System)",USA,US Air Force,Communications,GEO,35760,35814,0.05,1436.1,1156,1240,2003-08-29,10,Delta 4
+580,"DSCS III-F10 (USA 135, DSCS III B-13) (Defense Satellite Communications System)",USA,US Air Force,Communications,GEO,35757,35817,2.54,1436.1,1156,1240,1997-10-24,10,Delta 4
+581,"DSCS III-F11 (USA 148, DSCS III B-8) (Defense Satellite Communications System)",USA,US Air Force,Communications,GEO,35706,35868,0.01,1436.13,1156,1240,2000-01-01,10,Atlas 2A
+582,"DSCS III-F12 (USA 153, DSCS III B-11) (Defense Satellite Communications System)",USA,US Air Force,Communications,GEO,35774,35799,0.04,1436.12,1156,1240,2000-10-20,10,Atlas 2A
+583,"DSCS III-F9 (USA 113, DSCS III B-7) (Defense Satellite Communications System)",USA,US Air Force,Communications,GEO,35784,35784,0,1436.1,1156,1240,1995-07-31,10,Atlas 2A
+584,DSP 18 (USA 130) (Defense Support Program),USA,US Air Force,Earth Observation,GEO,35780,35800,0.1,1436.27,2380,1485,1997-02-23,5,Titan IVB
+585,DSP 20 (USA 149) (Defense Support Program),USA,US Air Force,Earth Observation,GEO,35897,35909,4.08,142.08,2380,1485,2000-05-18,9,Titan IVB
+586,DSP 21 (USA 159) (Defense Support Program),USA,US Air Force,Earth Observation,GEO,35765,35810,3.68,1436.14,2380,1485,2001-08-06,9,Titan 4B
+587,DSP 22 (USA 176) (Defense Support Program),USA,US Air Force,Earth Observation,GEO,35741,35832,1.41,1436.12,2380,1485,2004-02-14,9,Titan 4B
+590,DubaiSat-2,United Arab Emirates,Emirates Institution for Advanced Science & Technology (EIAST),Earth Observation,LEO,585,603,97.8,96.56,300,360,2013-11-21,5,Dnepr
+594,"Eagle-1 (AMC-3, Americom 3, GE-3)",USA,Global Eagle Entertainment,Communications,GEO,35777,35795,0.02,1436.08,2845,6500,1997-09-04,15,Atlas 2AS
+597,Echostar 10,USA,"Echostar Satellite Services, LLC",Communications,GEO,35780,35792,0.06,1436,4333,10000,2006-02-15,15,Zenit 3SL
+598,Echostar 11,USA,"Echostar Satellite Services, LLC",Communications,GEO,35778,35793,0.03,1436.1,5500,20000,2008-07-16,15,Zenit 3SL
+600,Echostar 14,USA,"Echostar Satellite Services, LLC",Communications,GEO,35785,35789,0.05,1436.11,6384,20000,2010-03-20,15,Proton M
+601,Echostar 15,USA,"Echostar Satellite Services, LLC",Communications,GEO,35789,35803,0.07,1436.57,5521,20000,2010-07-10,15,Proton M
+603,Echostar 17,USA,"Echostar Satellite Services, LLC",Communications,GEO,35781,35794,0.01,1436.13,6100,16100,2012-07-05,15,Ariane 5 ECA
+608,Echostar 7 ,USA,"Echostar Satellite Services, LLC",Communications,GEO,35782,35789,0.01,1436.07,4027,13000,2002-02-21,12,Atlas 3B
+610,"Echostar G1 (ICO G1, DBSD G1)",USA,"Echostar Satellite Services, LLC",Communications,GEO,35773,35799,5.73,1436.1,6600,16000,2008-04-14,15,Atlas 5
+627,EOS-AM Terra ,USA/Canada/Japan,Earth Sciences Enterprise (NASA),Earth Observation,LEO,702,703,98.2,98.8,4854,2530,1999-12-18,6,Atlas 2AS
+628,EOS-CHEM Aura ,USA,Goddard Space Flight Center/EOS Data and Operations System,Earth Observation,LEO,702,703,98.2,98.8,2967,4600,2004-07-15,5,Delta 2
+629,"EOS-PM Aqua (Advanced Microwave Scanning Radiometer for EOS, EOS PM-1)",USA/Japan/Brazil,National Aeronautics and Space Administration (NASA) - Earth Science Enterprise/Japan Meteorological Agency/Brazilian Space Agency,Earth Observation,LEO,701,704,98.2,98.8,2934,4860,2002-05-04,6,Delta
+631,"ERG (Exploration of Energization and Radiation in Geospace, Arase)",Japan,Japan Aerospace Exploration Agency (JAXA),Space Science,Elliptical,460,33200,31,580,350,750,2016-12-20,1,Epsilon
+632,EROS B1 (Earth Resources Observation Satellite),Israel,"ImageSat International, NV/Ministry of Defense",Earth Observation,LEO,508,514,97.4,94.8,350,800,2006-04-25,10,Start 1
+639,Eutelsat 113 West-A (Satmex 6),Multinational,EUTELSAT Americas,Communications,GEO,35776,35796,0.03,1436.1,5456,12690,2006-05-27,15,Ariane 5 ECA
+641,"Eutelsat 117 West A (Eutelsat 8 West C, Satmex 8)",Multinational,EUTELSAT Americas,Communications,GEO,35779,35795,0.02,1436.1,5474,12690,2013-03-26,15,Proton M
+642,Eutelsat 117 West B (Satmex 9),Multinational,EUTELSAT Americas,Communications,GEO,35779,35795,0.02,1436.1,5500,13000,2016-06-15,15,Falcon 9
+643,Eutelsat 12 West-A (Atlantic Bird 1) ,Multinational,EUTELSAT S.A.,Communications,GEO,35768,35805,0.11,1436.1,2700,5100,2002-08-28,15,Ariane 5G
+645,"Eutelsat 172A (GE-23, AMC-23, Worldsat 3, Americom 23)",Multinational,EUTELSAT S.A.,Communications,GEO,35772,35799,0.01,1436.1,5000,13000,2005-12-29,16,Proton M
+648,"Eutelsat 33C (Eutelsat 28A, Eurobird 1, Eurosat 1)",Multinational,EUTELSAT S.A.,Communications,GEO,35788,35794,0.07,1436.1,2950,5900,2001-03-08,12,Ariane 5
+649,Eutelsat 36A (Eutelsat W-4) ,Multinational,EUTELSAT S.A.,Communications,GEO,35766,35806,0.07,1436.08,3190,6000,2000-05-24,12,Atlas 3A
+650,Eutelsat 36B (Eutelsat W-7),Multinational,EUTELSAT S.A.,Communications,GEO,35786,35787,0.07,1436.09,5600,13200,2009-11-24,15,Breeze M
+653,"Eutelsat 5 West-A (Atlantic Bird 3, Stellat 5)",Multinational,EUTELSAT S.A.,Communications,GEO,35769,35805,0.04,1436.08,4050,11000,2002-07-05,15,Ariane 5
+654,Eutelsat 65 West-A,Multinational,EUTELSAT S.A.,Communications,GEO,35776,35796,0.08,1436.07,6654,16000,2016-03-09,15,Ariane 5
+655,Eutelsat 7 West-A (Atlantic Bird 7),Multinational,EUTELSAT S.A./Nilesat,Communications,GEO,35774,35799,0.06,1436.09,4600,12000,2011-09-24,15,Zenit 3SL
+660,Eutelsat 8 West A (Atlantic Bird 2) ,Multinational,EUTELSAT S.A.,Communications,GEO,35766,35806,0.06,1436.1,3150,7400,2001-09-25,15,Ariane 4
+662,"Eutelsat 9A (Eurobird 9A, Hot Bird 7A)",Multinational,EUTELSAT S.A.,Communications,GEO,35775,35799,0.07,1436.1,4100,10000,2006-03-11,15,Ariane 5
+663,"Eutelsat Hot Bird  13D (Eutelsat 3C, Hot Bird 10, Atlantic Bird 4A)",Multinational,EUTELSAT S.A.,Communications,GEO,35766,35806,0.06,1436.07,4892,11000,2009-02-11,15,Ariane 5 ECA
+664,Eutelsat Hot Bird 13B (Hot Bird 8),Multinational,EUTELSAT S.A.,Communications,GEO,35759,35812,0.02,1436.06,4900,14000,2006-08-04,15,Proton/Breeze M
+665,Eutelsat Hot Bird 13C (Hot Bird 9),Multinational,EUTELSAT S.A.,Communications,GEO,35786,35787,0.06,1436.09,4880,14500,2008-12-20,15,Ariane 5
+667,Eutelsat KA-SAT 9A (KA-SAT),Multinational,EUTELSAT S.A.,Communications,GEO,35714,35856,0.13,1436.01,6150,11000,2010-12-26,15,Proton
+673,Express AM22 (Sesat 2),Russia/Multinational,International Organization of Space Communications (Intersputnik)/EUTELSAT,Communications,GEO,35781,35790,0.02,1436.06,2600,6000,2003-12-28,12,Proton K
+675,"Express-A1R (Express 4A, Ekspress-A No. 4)",Russia,International Organization of Space Communications (Intersputnik),Communications,GEO,35774,35798,0.02,1436.1,2600,6000,2002-06-10,10,Proton K
+676,Express-AM3,Russia,International Organization of Space Communications (Intersputnik),Communications,GEO,35777,35795,0.09,1436.1,2600,4200,2005-06-24,12,Proton K
+680,Express-AM6,Russia,International Organization of Space Communications (Intersputnik),Communications,GEO,34094,37636,0.53,1440.09,3358,14000,2014-10-21,15,Proton M
+681,Express-AM7,Russia,International Organization of Space Communications (Intersputnik),Communications,GEO,35777,35796,0.01,1436.1,5720,18000,2015-03-18,15,Proton M
+711,FORTÉ (Fast On-orbit Recording of Transient Events),USA,Los Alamos National Laboratory,Earth Observation,LEO,790,823,70,101,215,55,1997-08-29,3,Pegasus XL
+716,Galaxy-11,USA,PanAmSat (Intelsat S.A.),Communications,GEO,35785,35795,0.05,1436.11,4488,10400,1999-01-21,14,Ariane 4
+718,"Galaxy-13 (Horizons 1, Galaxy 13L)",USA/Japan,PanAmSat (Intelsat S.A.)/Sky Perfect JSAT Corp.,Communications,GEO,35781,35790,0.01,1436.07,4060,8600,2003-10-01,15,Zenit 3
+719,Galaxy-14,USA,PanAmSat (Intelsat S.A.),Communications,GEO,35776,35795,0.01,1436.07,2086,4700,2005-08-13,15,Soyuz-Fregat
+720,Galaxy-15,USA,PanAmSat (Intelsat S.A.),Communications,GEO,35776,35795,0.06,1436.07,2033,4700,2005-10-13,15,Ariane 5
+721,Galaxy-16 ,USA,PanAmSat (Intelsat S.A.),Communications,GEO,35775,35798,0.01,1436.1,4640,10000,2006-06-18,15,Zenit 3SL
+722,Galaxy-17,USA,Intelsat S.A.,Communications,GEO,35774,35799,0.02,1436.1,4100,9500,2007-05-04,15,Ariane 5 ECA
+726,"Galaxy-28 (G-28, Intelsat IA-8, Telstar 8)",USA,Intelsat S.A.,Communications,GEO,35775,35798,0.01,1436.1,5493,16000,2005-06-23,13,Zenit 3SL
+727,Galaxy-3C,USA,"PanAmSat (Intelsat S.A.)/DirecTV, Inc.",Communications,GEO,35784,35788,0.01,1436.11,4860,18000,2002-06-15,15,Zenit 3SL
+750,"Galileo IOV-1 FM2 (0102, PRN E12)",ESA,European Space Agency (ESA),Navigation/Global Positioning,MEO,23242,23307,54.67,846.98,700,1420,2011-10-21,12,Soyuz-Fregat
+751,"Galileo IOV-1 PFM (0101, PRN E11)",ESA,European Space Agency (ESA),Navigation/Global Positioning,MEO,23240,23306,54.68,846.88,700,1420,2011-10-21,12,Soyuz-Fregat
+752,"Galileo IOV-2 FM3 (0103, PRN E19)",ESA,European Space Agency (ESA),Navigation/Global Positioning,MEO,23214,23233,55.34,844.76,700,1420,2012-10-12,12,Soyuz-Fregat
+753,"Galileo IOV-2 FM4 (0104, PRN E20)",ESA,European Space Agency (ESA),Navigation/Global Positioning,MEO,23217,23227,55.3,844.69,700,1420,2012-10-12,12,Soyuz-Fregat
+776,GEO-Kompsat-2A,South Korea,Korea Meteorological Administration/National Meteorological Satellite Center,Earth Observation,GEO,35783,35787,0.05,1436.04,3507,2600,2018-12-04,10,Ariane 5
+779,"Global Change Observation Mission - 1 Water (GCOM-1, Shikuzu)",USA/Japan,Japan Aerospace Exploration Agency (JAXA),Earth Observation,LEO,701,704,98.2,98.8,1900,4.05,2012-05-17,5,H2A
+780,Globalstar M037 (Globalstar 16),USA,Globalstar,Communications,LEO,1411,1417,52,114.1,450,1500,1999-03-15,10,Soyuz U
+781,Globalstar M065 (Globalstar 65),USA,Globalstar,Communications,LEO,1411,1416,52,114.1,450,1500,2007-05-29,10,Soyuz-Fregat
+782,Globalstar M066 (Globalstar 66),USA,Globalstar,Communications,LEO,1412,1415,52,114.1,450,1500,2007-10-20,10,Soyuz-Fregat
+783,Globalstar M067 (Globalstar 67),USA,Globalstar,Communications,LEO,1413,1414,52,114.1,450,1500,2007-10-20,10,Soyuz-Fregat
+784,Globalstar M069 (Globalstar 69),USA,Globalstar,Communications,LEO,1411,1416,52,114.1,450,1500,2007-05-29,10,Soyuz-Fregat
+785,Globalstar M070 (Globalstar 70),USA,Globalstar,Communications,LEO,1412,1415,52,114.1,450,1500,2007-10-20,10,Soyuz-Fregat
+786,Globalstar M071 (Globalstar 71),USA,Globalstar,Communications,LEO,1412,1415,52,114.1,450,1500,2007-05-29,10,Soyuz-Fregat
+787,Globalstar M072 (Globalstar 72),USA,Globalstar,Communications,LEO,1412,1416,52,114.1,450,1500,2007-05-29,10,Soyuz-Fregat
+788,"Globalstar M073 (Globalstar 73, Globalstar 2-6)",USA,Globalstar,Communications,LEO,1413,1414,52,114.1,700,1700,2010-10-19,15,Soyuz-Fregat
+789,"Globalstar M074 (Globalstar 74, Globalstar 2-2)",USA,Globalstar,Communications,LEO,1413,1415,52,114.1,700,1700,2010-10-19,15,Soyuz-Fregat
+790,"Globalstar M075 (Globalstar 75, Globalstar 2-5)",USA,Globalstar,Communications,LEO,1413,1415,52,114.1,700,1700,2010-10-19,15,Soyuz-Fregat
+791,"Globalstar M076 (Globalstar 76, Globalstar 2-3)",USA,Globalstar,Communications,LEO,1412,1415,52,114.1,700,1700,2010-10-19,15,Soyuz-Fregat
+792,"Globalstar M077 (Globalstar 77, Globalstar 2-4)",USA,Globalstar,Communications,LEO,1413,1414,52,114.1,700,1700,2010-10-19,15,Soyuz-Fregat
+793,"Globalstar M078 (Globalstar 95, Globalstar 2-23)",USA,Globalstar,Communications,LEO,1412,1415,51.99,114.08,700,1700,2013-02-06,15,Soyuz.2.1a/Fregat
+794,"Globalstar M079 (Globalstar 79, Globalstar 2-1)",USA,Globalstar,Communications,LEO,1413,1414,52,114.1,700,1700,2010-10-19,15,Soyuz-Fregat
+795,"Globalstar M080 (Globalstar 80, Globalstar 2-14)",USA,Globalstar,Communications,LEO,1413,1414,52,114.1,700,1700,2011-12-28,15,Soyuz 2.1a/Fregat
+796,"Globalstar M081 (Globalstar 81, Globalstar 2-11)",USA,Globalstar,Communications,LEO,1412,1415,52,114.1,700,1700,2011-07-13,15,Soyuz 2.1a
+797,"Globalstar M082 (Globalstar 82, Globalstar 2-15)",USA,Globalstar,Communications,LEO,1413,1414,52,114.1,700,1700,2011-12-28,15,Soyuz 2.1a/Fregat
+798,"Globalstar M083 (Globalstar 83, Globalstar 2-7)",USA,Globalstar,Communications,LEO,1413,1414,52,114.1,700,1700,2011-07-13,15,Soyuz 2.1a
+799,"Globalstar M084 (Globalstar 84, Globalstar 2-13) ",USA,Globalstar,Communications,LEO,1413,1414,52,114.1,700,1700,2011-12-28,15,Soyuz 2.1a/Fregat
+800,"Globalstar M085 (Globalstar 85, Globalstar 2-10)",USA,Globalstar,Communications,LEO,1413,1415,52,114.1,700,1700,2011-07-13,15,Soyuz 2.1a
+801,"Globalstar M086 (Globalstar 86, Globalstar 2-18)",USA,Globalstar,Communications,LEO,1413,1414,52,114.1,700,1700,2011-12-28,15,Soyuz 2.1a/Fregat
+802,"Globalstar M088 (Globalstar 88, Globalstar 2-8)",USA,Globalstar,Communications,LEO,1412,1415,52,114.1,700,1700,2011-07-13,15,Soyuz 2.1a
+803,"Globalstar M089 (Globalstar 89, Globalstar 2-12)",USA,Globalstar,Communications,LEO,1413,1415,51.99,118.2,700,1700,2011-07-13,15,Soyuz 2.1a
+804,"Globalstar M090 (Globalstar 90, Globalstar 2-17)",USA,Globalstar,Communications,LEO,1413,1414,52,114.1,700,1700,2011-12-28,15,Soyuz 2.1a/Fregat
+805,"Globalstar M091 (Globalstar 91, Globalstar 2-9)",USA,Globalstar,Communications,LEO,1413,1415,52,114.1,700,1700,2011-07-13,15,Soyuz 2.1a
+806,"Globalstar M092 (Globalstar 92, Globalstar 2-16)",USA,Globalstar,Communications,LEO,1413,1414,52,114.1,700,1700,2011-12-28,15,Soyuz 2.1a/Fregat
+807,"Globalstar M093 (Globalstar 87, Globalstar 2-20)",USA,Globalstar,Communications,LEO,1412,1415,51.98,113.35,700,1700,2013-02-06,15,Soyuz.2.1a/Fregat
+808,"Globalstar M094 (Globalstar 93, Globalstar 2-21)",USA,Globalstar,Communications,LEO,1413,1414,51.99,103.44,700,1700,2013-02-06,15,Soyuz.2.1a/Fregat
+809,"Globalstar M095 (Globalstar 96, Globalstar 2-24)",USA,Globalstar,Communications,LEO,1413,1414,51.98,114.08,700,1700,2013-02-06,15,Soyuz.2.1a/Fregat
+810,"Globalstar M096 (Globalstar 94, Globalstar 2-22)",USA,Globalstar,Communications,LEO,1413,1414,52.01,103.48,700,1700,2013-02-06,15,Soyuz.2.1a/Fregat
+811,"Globalstar M097 (Globalstar 78, Globalstar 2-19)",USA,Globalstar,Communications,LEO,1370,1391,52.01,113.96,700,1700,2013-02-06,15,Soyuz.2.1a/Fregat
+812,"Glonass 701 (Glonass-K, Cosmos 2471)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19116,19146,64.77,675.78,935,1700,2011-02-26,10,Soyuz 2
+813,"Glonass 702 (Glonass K, Cosmos 2501)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19103,19178,64.83,676.15,935,1700,2014-12-01,10,Soyuz 2.1b
+814,"Glonass 716 (Glonass 35-2, Cosmos 2425)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19130,19130,64.8,675.75,1480,1600,2006-12-25,7,Proton K
+815,"Glonass 717 (Glonass 35-3, Cosmos 2426)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19130,19130,64.8,675.75,1480,1600,2006-12-25,7,Proton K
+816,"Glonass 719 (Glonass 36-2, Cosmos 2432)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19094,19171,64.9,675.83,1480,1600,2007-10-26,7,Proton K
+817,"Glonass 720 (Glonass 36-3, Cosmos 2433)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19124,19133,64.9,675.67,1480,1600,2007-10-26,7,Proton K
+818,"Glonass 721 (Glonass 37-1, Cosmos 2435)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19142,19378,64.66,680.91,1480,1600,2007-12-25,7,Proton M
+819,"Glonass 723 (Glonass 37-3, Cosmos 2436)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19147,19365,64.67,680.75,1480,1600,2007-12-25,7,Proton M
+820,"Glonass 730 (Glonass 41-1, Cosmos 2456)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19132,19419,64.81,681.53,1415,1000,2009-12-14,7,Proton M
+821,"Glonass 731 (Glonass 42-1, Cosmos 2459)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19119,19146,64.76,675.85,1415,1000,2010-03-01,7,Proton M
+822,"Glonass 732 (Glonass 42-3, Cosmos 2460)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19131,19133,64.77,675.81,1415,1000,2010-03-01,7,Proton M
+823,"Glonass 733 (Glonass 41-2, Cosmos 2457)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,18864,19130,64.78,670.47,1415,1000,2009-12-14,7,Proton M
+824,"Glonass 735 (Glonass 42-2, Cosmos 2461)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19128,19135,64.77,675.81,1415,1000,2010-03-01,7,Proton M
+825,"Glonass 736 (Glonass 43-1, Cosmos 2464)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,18909,19123,64.82,671.2,1415,1000,2010-09-02,7,Proton M
+826,"Glonass 742 (Glonass-M, Cosmos 2474)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19126,19158,64.82,676.2,1415,1000,2011-10-02,7,Soyuz 2
+827,"Glonass 743 (Glonass 44-2, Cosmos 2476)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19142,19204,64.8,677.46,1415,1000,2011-11-04,7,Proton M
+828,"Glonass 744 (Glonass 44-3, Cosmos 2477)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19150,19199,64.8,677.5,1415,1000,2011-11-04,7,Proton M
+829,"Glonass 745 (Glonass 44-1, Cosmos 2475)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19139,19212,64.78,677.54,1415,1000,2011-11-04,7,Proton M
+830,"Glonass 747 (Glonass-M, Cosmos 2485)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19087,19173,64.77,675.73,1415,1000,2013-04-26,7,Soyuz 2
+831,"Glonass 751 (Glonass-M, Cosmos 2514)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19106,19154,64.8,675.75,1415,1000,2016-02-07,7,Soyuz 2.1b
+832,"Glonass 752 (Glomass-M, Cosmos 2522)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19103,19156,64.8,675.75,1415,1000,2017-09-22,7,Soyuz 2.1b
+833,"Glonass 753 (Glonass-M, Cosmos 2516)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19094,19153,64.8,675.49,1415,1000,2016-05-29,7,Soyuz 2.1b
+834,"Glonass 754 (Glonass-M, Cosmos 2491, RS-46)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19084,19177,64.81,675.74,1415,1000,2014-03-23,7,Soyuz 2.1b
+835,"Glonass 755 (Glonass-M, Cosmos 2500)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19114,19146,64.77,675.73,1415,1000,2014-06-14,7,Soyuz 2.1b
+836,"Glonass 756 (Glonass-M, Cosmos 2527)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19121,19154,64.8,676.03,1415,1000,2018-06-18,7,Soyuz 2.1b
+837,"Glonass 757 (Glonass-M, Cosmos 2529)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19123,19163,64.8,767.2,1415,1000,2018-11-03,7,Soyuz 2.1b
+838,"Glonass 758 (Glonass-M, Cosmos 2534)",Russia,Ministry of Defense,Navigation/Global Positioning,MEO,19097,19162,64.8,675.7,1415,1000,2019-05-27,7,Soyuz 2.1b
+839,"GOES 13 (Geostationary Operational Environmental Satellite, GOES-N)",USA,US Air Force,Earth Observation,GEO,35768,35801,0.28,1436,3200,2300,2006-05-24,7,Delta 4
+840,"GOES 14 (Geostationary Operational Environmental Satellite, GOES-O)",USA,NOAA (National Oceanographic and Atmospheric Administration),Earth Observation,GEO,35170,35170,0,1436,3200,2300,2009-06-27,10,Delta 4
+841,"GOES 15 (Geostationary Operational Ennvironmental Satellite, GOES-P)",USA,NOAA (National Oceanographic and Atmospheric Administration),Earth Observation,GEO,35786,35788,0.42,1436.14,3175,2300,2010-03-04,10,Delta 4
+848,Gonets M-03,Russia,Gonets Satcom,Communications,LEO,1478,1510,82.5,115.9,270,120,2012-07-28,7,Rokot
+849,Gonets M-04,Russia,Gonets Satcom,Communications,LEO,1480,1511,82.5,115.9,270,120,2012-07-28,7,Rokot
+850,Gonets M-05,Russia,Gonets Satcom,Communications,LEO,1497,1510,82.5,116.1,270,120,2010-09-08,7,Rokot
+851,Gonets M-11 (Gonets M21),Russia,Gonets Satcom,Communications,LEO,1497,1508,82.4,116,280,120,2015-03-31,7,Rokot
+852,Gonets M-12 (Gonets M22),Russia,Gonets Satcom,Communications,LEO,1494,1506,82.4,116,280,120,2015-03-31,7,Rokot
+853,Gonets M-13 (Gonets M23),Russia,Gonets Satcom,Communications,LEO,1171,1504,82.4,116,280,120,2015-03-31,7,Rokot
+854,Gonets M-14,Russia,Gonets Satcom,Communications,LEO,1482,1507,82.49,115.86,270,120,2013-09-11,7,Rokot
+855,Gonets M-16,Russia,Gonets Satcom,Communications,LEO,1493,1508,82.49,116,270,120,2013-09-11,7,Rokot
+856,Gonets M-17,Russia,Gonets Satcom,Communications,LEO,1494,1509,92.49,116.02,270,120,2013-09-11,7,Rokot
+857,Gonets M-18,Russia,Gonets Satcom,Communications,LEO,1479,1510,82.52,115.87,280,120,2014-07-03,7,Rokot
+858,Gonets M-19,Russia,Gonets Satcom,Communications,LEO,1480,1512,82.51,115.89,280,120,2014-07-03,7,Rokot
+859,Gonets M-20,Russia,Gonets Satcom,Communications,LEO,1478,1509,82.51,115.84,280,120,2014-07-03,7,Rokot
+866,"Greenhouse Gases Observing Satellite (Ibuki, GoSAT)",Japan,Japan Aerospace Exploration Agency (JAXA),Earth Observation,LEO,668,670,98.1,98.1,1750,3800,2009-01-23,5,H2A
+871,GSAT-12,India,Indian Space Research Organization (ISRO),Communications,GEO,35761,35811,0.09,1436.1,1410,1430,2011-07-15,8,PSLV C17
+879,GSAT-31,India,Indian Space Research Organization (ISRO),Communications,GEO,35774,35799,0.1,1436.1,2536,4700,2019-02-05,15,Ariane 5
+880,GSAT-6 (Insat 4-E),India,Indian Space Research Organization (ISRO),Communications,GEO,35775,35775,0,1436.1,2110,3100,2015-08-27,12,GSLV
+883,GSAT-8,India,Indian Space Research Organization (ISRO),Communications/Navigation,GEO,35782,35796,0.09,1436.23,3093,6250,2011-05-20,12,Ariane 5
+896,Helios 2A ,France/Italy/Belgium/Spain/Greece,Centre National d'Etudes Spatiales (CNES)/Délégation Générale de l'Armement (DGA),Earth Observation,LEO,681,683,98.1,98,4200,2900,2004-12-18,5,Ariane 5G
+897,Helios 2B,France/Italy/Belgium/Spain/Greece,Centre National d'Etudes Spatiales (CNES)/Délégation Générale de l'Armement (DGA),Earth Observation,LEO,679,682,98.1,98.37,4200,2900,2009-12-18,5,Ariane 5
+898,"Hellas-Sat 2 (Intelsat K-TV, NSS K-TV)",Greece,Hellas-Sat Consortium Ltd.,Communications,GEO,35769,35803,0.01,1436.08,3300,7600,2003-05-12,15,Atlas 5
+901,"HESSI (RHESSI, Reuven Ramaty High Energy Solar Spectroscopic Imager)",USA,"Space Sciences Laboratory, UC Berkeley/NASA",Space Science,LEO,535,551,38,95.5,293,414,2002-02-05,3,Pegasus
+904,Himawari 8,Japan,Japan Meteorological Agency/Meteorological Satellite Center (MSC),Earth Observation,GEO,35774,35797,0.08,1436.06,3500,2600,2014-10-07,8,H2A
+905,Himawari 9,Japan,Japan Meteorological Agency/Meteorological Satellite Center (MSC),Earth Observation,GEO,35788,35799,0,1436.1,3500,2600,2016-11-02,8,H2A
+906,Hinode (Solar B),Multinational,Institute of Space and Aeronautical Science/NASA,Space Science,LEO,670,696,98.1,98.4,700,1000,2006-10-22,3,JAXA M-V
+907,"Hisaki (Sprint A, Spectroscopic Planet Observatory for Recognition of Interaction of Atmosphere)",Japan,Japan Aerospace Exploration Agency (JAXA),Space Science,Elliptical,952,1155,31,106.27,348,900,2013-09-14,1,Epsilon
+908,Hispasat 1D ,Spain,Hispasat,Communications,GEO,35764,35809,0.02,1436.11,3288,6200,2002-09-18,15,Atlas 2AS
+909,Hispasat 1E,Spain,Hispasat,Communications,GEO,35782,35786,0.07,1435.95,5320,14000,2010-12-29,15,Ariane 5
+911,Hispasat 36W-1 (Hispasat AG1),Spain,Hispasat,Communications,GEO,35783,35791,0,1436.1,3220,6000,2017-01-28,15,Soyuz
+920,Horizons 2,USA/Japan,"Horizons 2 Satellite, LLC (Intelsat, Sky Perfect JSAT Corporation)",Communications,GEO,35777,35796,0,1436.1,2300,4700,2007-12-21,15,Ariane 5
+924,"Hubble Space Telescope (HST, Space Telescope)",ESA/USA,European Space Agency (ESA)/NASA,Space Science,LEO,555,559,28.5,95.8,11110,2400,1990-04-25,10,Space Shuttle (STS 31)
+954,INMARSAT 3 F5 ,United Kingdom,"INMARSAT, Ltd.",Communications,GEO,35769,35803,0.04,1436.07,2000,2800,1998-02-04,13,Ariane 44L
+955,INMARSAT 4 F1,United Kingdom,"INMARSAT, Ltd.",Communications,GEO,35772,35799,2.3,1436.08,5959,13000,2005-03-11,15,Atlas 5
+956,INMARSAT 4 F2,United Kingdom,"INMARSAT, Ltd.",Communications,GEO,35773,35800,2.33,1436.11,5458,13000,2005-11-08,15,Zenit 3SL
+957,INMARSAT 4 F3,United Kingdom,"INMARSAT, Ltd.",Communications,GEO,35775,35798,3.01,1436.1,5960,13000,2008-08-18,15,Proton M
+958,INMARSAT 5 F1,United Kingdom,"INMARSAT, Ltd.",Communications,GEO,35784,35790,0.06,1436.13,6070,13000,2013-12-08,15,Proton M
+959,INMARSAT 5 F2,United Kingdom,"INMARSAT, Ltd.",Communications,GEO,35784,35789,0.03,1436,6105,13000,2015-02-01,15,Proton M
+960,INMARSAT 5 F3,United Kingdom,"INMARSAT, Ltd.",Communications,GEO,35780,35780,0,1436.1,6100,15000,2015-08-28,15,Proton M
+962,INMARSAT IV-A F4 (Alphasat I-XL),United Kingdom/ESA,"INMARSAT, Ltd./European Space Agency (ESA)",Communications/Technology Development,GEO,35786,35787,0.02,1436.09,6650,12000,2013-07-25,15,Ariane 5 ECA
+969,INSAT 4A (Indian National Satellite),India,Indian Space Research Organization (ISRO),Communications,GEO,35777,35796,0.03,1436.1,3100,5500,2005-12-21,12,Ariane 5G
+971,INSAT 4CR (Indian National Satellite),India,Indian Space Research Organization (ISRO),Communications,GEO,37782,37791,0.03,1436.11,2130,3000,2007-09-02,12,GSLV F04
+972,Integral (INTErnational Gamma-Ray Astrophysics Laboratory),ESA/USA/Russia,European Space Operations Centre (ESOC)/NASA/Russia,Space Science,Elliptical,6292,156833,53.95,4032.86,4000,2000,2002-10-17,2,Proton
+973,Intelsat 10 (PAS-10),USA,PanAmSat (Intelsat S.A.),Communications,GEO,35776,35796,0.04,1436.08,3739,9600,2001-05-14,15,Proton
+974,Intelsat 10-02 (Thor 4),USA,Intelsat S.A.,Communications,GEO,35783,35789,0.02,1436.08,5576,11000,2004-06-16,13,Proton
+976,"Intelsat 12 (Europe*Star 1, Europe*Star FM1, IS-12, PAS-12)",USA,Intelsat S.A.,Communications,GEO,35776,35796,0,1436.09,4167,12000,2000-10-29,18,Ariane 44LP
+978,"Intelsat 15 (IS-15, JCSat 85)",USA,Intelsat S.A./Sky Perfect JSAT Corp.,Communications,GEO,35776,35798,0.05,1436.12,2550,4600,2009-11-30,17,Zenit 3SLB
+979,Intelsat 16 (IS-16),USA,Intelsat S.A.,Communications,GEO,35783,35791,0.07,1436.19,2450,4500,2010-02-12,15,Proton M
+982,Intelsat 19 (IS-19),USA,Intelsat S.A.,Communications,GEO,35768,35801,0.13,1436.01,5600,15000,2012-06-01,15,Zenit
+983,"Intelsat 1R (IS-1R, PAS-1R, PanAmSat 1R)",USA,PanAmSat (Intelsat S.A.),Communications,GEO,35785,35788,0.06,1436.11,4793,15000,2000-11-15,15,Ariane 5
+984,Intelsat 20 (IS-20),USA,Intelsat S.A.,Communications,GEO,35780,35790,0.02,1436.03,6094,19300,2012-08-02,18,Ariane 5 ECA
+988,"Intelsat 25 (IS-25, Protostar 1, Chinasat 8)",USA,Intelsat S.A.,Communications,GEO,35778,35793,0.02,1436.1,4100,11000,2008-07-07,16,Ariane 5 ECA
+989,"Intelsat 26 (JCSat R, JCSAT-4, Japan Communications Satellite 4)",USA,Intelsat S.A.,Communications,GEO,35779,35794,0.02,1436.1,3124,5200,1997-02-16,12,Atlas 2AS
+998,"Intelsat 5 (Arabsat 2C, Panamsat-5, PAS-5)",USA,Intelsat S.A.,Communications,GEO,35774,35798,0.03,1436.09,2730,9700,1997-08-28,15,Proton K
+999,Intelsat 805 ,USA,Intelsat S.A.,Communications,GEO,35775,35797,0.01,1436.08,3420,4900,1998-06-18,14,Ariane 42L
+1000,"Intelsat 9 (IS-9, PAS-9) ",USA,PanAmSat (Intelsat S.A.),Communications,GEO,35782,35792,0.01,1436.14,3659,9900,2000-07-28,15,Zenit 3SL
+1001,Intelsat 901 ,USA,Intelsat S.A.,Communications,GEO,35775,35798,0.01,1436.12,4723,10000,2001-06-09,13,Atlas 2AS
+1002,Intelsat 902 ,USA,Intelsat S.A.,Communications,GEO,35775,35797,0.02,1436.1,4723,8500,2001-08-30,13,Ariane 44L
+1003,Intelsat 903 ,USA,Intelsat S.A.,Communications,GEO,35773,35802,0.02,1436.16,4723,8600,2002-03-30,13,Ariane 44L
+1004,Intelsat 904 ,USA,Intelsat S.A.,Communications,GEO,35782,35789,0.01,1436.07,4680,8500,2002-02-23,13,Proton K
+1005,Intelsat 905 ,USA,Intelsat S.A.,Communications,GEO,35768,35805,0.01,1436.12,4723,10000,2002-06-05,13,Ariane 44L
+1006,Intelsat 906 ,USA,Intelsat S.A.,Communications,GEO,35775,35796,0.01,1436.07,4723,7000,2002-09-06,13,Ariane 44L
+1007,Intelsat 907 ,USA,Intelsat S.A.,Communications,GEO,35770,35803,0.02,1436.1,4685,10000,2003-02-15,13,Ariane 44L
+1008,Intelsat New Dawn (Intelsat 28),USA,Intelsat S.A.,Communications,GEO,35800,35892,0.05,1439.15,3000,4800,2011-04-22,15,Ariane 5
+1012,Iridium 45 (Iridium SV045),USA,"Iridium Communications, Inc.",Communications,LEO,776,779,86.4,100.4,689,50,1997-12-20,8,Delta 2 7920
+1013,Iridium 61 (Iridium SV061),USA,"Iridium Communications, Inc.",Communications,LEO,776,779,86.4,100.4,689,50,1998-03-25,8,Long March 2C
+1014,Iridium 96 (Iridium SV096),USA,"Iridium Communications, Inc.",Communications,LEO,745,754,87.2,99.8,689,50,2002-02-11,8,Delta 2
+1015,Iridium 97 (Iridium SV097),USA,"Iridium Communications, Inc.",Communications,LEO,777,778,86.4,100.4,689,50,2002-06-20,8,Rokot/BrizKM
+1016,Iridium Next SV 102,USA,"Iridium Communications, Inc.",Communications,LEO,609,621,86.6,97,860,50,2017-01-14,15,Falcon 9
+1017,Iridium Next SV 103,USA,"Iridium Communications, Inc.",Communications,LEO,610,623,86.6,97,860,50,2017-01-14,15,Falcon 9
+1018,Iridium Next SV 104,USA,"Iridium Communications, Inc.",Communications,LEO,608,622,86.6,96.9,860,50,2017-01-14,15,Falcon 9
+1019,Iridium Next SV 105,USA,"Iridium Communications, Inc.",Communications,LEO,608,622,86.6,97,860,50,2017-01-14,15,Falcon 9
+1020,Iridium Next SV 106,USA,"Iridium Communications, Inc.",Communications,LEO,701,704,86.5,98.8,860,50,2017-01-14,15,Falcon 9
+1021,Iridium Next SV 107,USA,"Iridium Communications, Inc.",Communications,LEO,610,626,86.6,97,860,50,2017-10-09,15,Falcon 9
+1022,Iridium Next SV 108,USA,"Iridium Communications, Inc.",Communications,LEO,608,622,86.6,96.9,860,50,2017-01-14,15,Falcon 9
+1023,Iridium Next SV 109,USA,"Iridium Communications, Inc.",Communications,LEO,610,622,86.6,97,860,50,2017-01-14,15,Falcon 9
+1024,Iridium Next SV 110,USA,"Iridium Communications, Inc.",Communications,LEO,488,718,86.7,96.7,860,50,2018-05-22,15,Falcon 9
+1025,Iridium Next SV 111,USA,"Iridium Communications, Inc.",Communications,LEO,607,622,86.6,96.9,860,50,2017-01-14,15,Falcon 9
+1026,Iridium Next SV 112,USA,"Iridium Communications, Inc.",Communications,LEO,607,622,86.6,96.9,860,50,2017-01-14,15,Falcon 9
+1027,Iridium Next SV 113,USA,"Iridium Communications, Inc.",Communications,LEO,607,624,86.6,97,860,50,2017-06-25,15,Falcon 9
+1028,Iridium Next SV 114,USA,"Iridium Communications, Inc.",Communications,LEO,608,622,86.6,96.9,860,50,2017-01-14,15,Falcon 9
+1029,Iridium Next SV 115,USA,"Iridium Communications, Inc.",Communications,LEO,606,623,86.6,97,860,50,2017-06-25,15,Falcon 9
+1030,Iridium Next SV 116,USA,"Iridium Communications, Inc.",Communications,LEO,611,627,86.7,97,860,50,2017-12-23,15,Falcon 9
+1031,Iridium Next SV 117,USA,"Iridium Communications, Inc.",Communications,LEO,606,623,86.6,97,860,50,2017-06-25,15,Falcon 9
+1032,Iridium Next SV 118,USA,"Iridium Communications, Inc.",Communications,LEO,608,625,86.6,97,860,50,2017-06-25,15,Falcon 9
+1033,Iridium Next SV 119,USA,"Iridium Communications, Inc.",Communications,LEO,610,626,86.6,97,860,50,2017-10-09,15,Falcon 9
+1034,Iridium Next SV 120,USA,"Iridium Communications, Inc.",Communications,LEO,607,624,86.6,97,860,50,2017-06-25,15,Falcon 9
+1035,Iridium Next SV 121,USA,"Iridium Communications, Inc.",Communications,LEO,608,625,86.6,97,860,50,2017-06-25,15,Falcon 9
+1036,Iridium Next SV 122,USA,"Iridium Communications, Inc.",Communications,LEO,611,626,86.6,97,860,50,2017-10-09,15,Falcon 9
+1037,Iridium Next SV 123,USA,"Iridium Communications, Inc.",Communications,LEO,607,624,86.6,97,860,50,2017-06-25,15,Falcon 9
+1038,Iridium Next SV 124,USA,"Iridium Communications, Inc.",Communications,LEO,608,625,86.6,97,860,50,2017-06-25,15,Falcon 9
+1039,Iridium Next SV 125,USA,"Iridium Communications, Inc.",Communications,LEO,609,626,86.6,97,860,50,2017-10-09,15,Falcon 9
+1040,Iridium Next SV 126,USA,"Iridium Communications, Inc.",Communications,LEO,606,623,86.6,97,860,50,2017-06-25,15,Falcon 9
+1041,Iridium Next SV 127,USA,"Iridium Communications, Inc.",Communications,LEO,611,626,86.6,97,860,50,2017-10-09,15,Falcon 9
+1042,Iridium Next SV 128,USA,"Iridium Communications, Inc.",Communications,LEO,609,625,86.6,97,860,50,2017-06-25,15,Falcon 9
+1043,Iridium Next SV 129,USA,"Iridium Communications, Inc.",Communications,LEO,611,626,86.6,97,860,50,2017-10-09,15,Falcon 9
+1044,Iridium Next SV 130,USA,"Iridium Communications, Inc.",Communications,LEO,611,626,86.7,97,860,50,2017-12-23,15,Falcon 9
+1045,Iridium Next SV 131,USA,"Iridium Communications, Inc.",Communications,LEO,611,626,86.7,97,860,50,2017-12-23,15,Falcon 9
+1046,Iridium Next SV 132,USA,"Iridium Communications, Inc.",Communications,LEO,609,626,86.6,97,860,50,2017-10-09,15,Falcon 9
+1047,Iridium Next SV 133,USA,"Iridium Communications, Inc.",Communications,LEO,622,635,86.6,97.2,860,50,2017-10-09,15,Falcon 9
+1048,Iridium Next SV 134,USA,"Iridium Communications, Inc.",Communications,LEO,610,626,86.7,97,860,50,2017-12-23,15,Falcon 9
+1049,Iridium Next SV 135,USA,"Iridium Communications, Inc.",Communications,LEO,610,626,86.7,97,860,50,2017-12-23,15,Falcon 9
+1050,Iridium Next SV 136,USA,"Iridium Communications, Inc.",Communications,LEO,609,626,86.6,97,860,50,2017-10-09,15,Falcon 9
+1051,Iridium Next SV 137,USA,"Iridium Communications, Inc.",Communications,LEO,609,626,86.7,97,860,50,2017-12-23,15,Falcon 9
+1052,Iridium Next SV 138,USA,"Iridium Communications, Inc.",Communications,LEO,609,626,86.7,97,860,50,2017-12-23,15,Falcon 9
+1053,Iridium Next SV 139,USA,"Iridium Communications, Inc.",Communications,LEO,609,626,86.6,97,860,50,2017-10-09,15,Falcon 9
+1054,Iridium Next SV 140,USA,"Iridium Communications, Inc.",Communications,LEO,607,626,86.6,97,860,50,2018-03-30,15,Falcon 9
+1055,Iridium Next SV 141,USA,"Iridium Communications, Inc.",Communications,LEO,609,625,86.7,97,860,50,2017-12-23,15,Falcon 9
+1056,Iridium Next SV 142,USA,"Iridium Communications, Inc.",Communications,LEO,608,626,86.6,97,860,50,2018-03-30,15,Falcon 9
+1057,Iridium Next SV 143,USA,"Iridium Communications, Inc.",Communications,LEO,608,626,86.6,97,860,50,2018-03-30,15,Falcon 9
+1058,Iridium Next SV 144,USA,"Iridium Communications, Inc.",Communications,LEO,606,625,86.6,97,860,50,2018-03-30,15,Falcon 9
+1059,Iridium Next SV 145,USA,"Iridium Communications, Inc.",Communications,LEO,607,626,86.6,97,860,50,2018-03-30,15,Falcon 9
+1060,Iridium Next SV 146,USA,"Iridium Communications, Inc.",Communications,LEO,608,627,86.6,97,860,50,2018-03-30,15,Falcon 9
+1061,Iridium Next SV 147,USA,"Iridium Communications, Inc.",Communications,LEO,489,714,86.7,96.7,860,50,2018-05-22,15,Falcon 9
+1062,Iridium Next SV 148,USA,"Iridium Communications, Inc.",Communications,LEO,606,625,86.6,97,860,50,2018-03-30,15,Falcon 9
+1063,Iridium Next SV 149,USA,"Iridium Communications, Inc.",Communications,LEO,608,626,86.6,97,860,50,2018-03-30,15,Falcon 9
+1064,Iridium Next SV 150,USA,"Iridium Communications, Inc.",Communications,LEO,606,626,86.6,97,860,50,2018-03-30,15,Falcon 9
+1065,Iridium Next SV 151,USA,"Iridium Communications, Inc.",Communications,LEO,609,625,86.7,97,860,50,2017-12-23,15,Falcon 9
+1066,Iridium Next SV 152,USA,"Iridium Communications, Inc.",Communications,LEO,493,710,86.7,96.7,860,50,2018-05-22,15,Falcon 9
+1067,Iridium Next SV 153,USA,"Iridium Communications, Inc.",Communications,LEO,609,625,86.7,97,860,50,2017-12-23,15,Falcon 9
+1068,Iridium Next SV 154,USA,"Iridium Communications, Inc.",Communications,LEO,608,622,86.6,97,860,50,2018-07-25,15,Falcon 9
+1069,Iridium Next SV 155,USA,"Iridium Communications, Inc.",Communications,LEO,608,622,86.6,97,860,50,2018-07-25,15,Falcon 9
+1070,Iridium Next SV 156,USA,"Iridium Communications, Inc.",Communications,LEO,607,623,86.6,97,860,50,2018-07-25,15,Falcon 9
+1071,Iridium Next SV 157,USA,"Iridium Communications, Inc.",Communications,LEO,607,626,86.6,97,860,50,2018-03-30,15,Falcon 9
+1072,Iridium Next SV 158,USA,"Iridium Communications, Inc.",Communications,LEO,609,623,86.6,97,860,50,2018-07-25,15,Falcon 9
+1073,Iridium Next SV 159,USA,"Iridium Communications, Inc.",Communications,LEO,607,622,86.6,97,860,50,2018-07-25,15,Falcon 9
+1074,Iridium Next SV 160,USA,"Iridium Communications, Inc.",Communications,LEO,609,624,86.6,97,860,50,2018-07-25,15,Falcon 9
+1075,Iridium Next SV 161,USA,"Iridium Communications, Inc.",Communications,LEO,489,714,86.7,96.7,860,50,2018-05-22,15,Falcon 9
+1076,Iridium Next SV 162,USA,"Iridium Communications, Inc.",Communications,LEO,491,715,86.7,96.7,860,50,2018-05-22,15,Falcon 9
+1077,Iridium Next SV 163 ,USA,"Iridium Communications, Inc.",Communications,LEO,607,623,86.6,97,860,50,2018-07-25,15,Falcon 9
+1078,Iridium Next SV 164,USA,"Iridium Communications, Inc.",Communications,LEO,607,623,86.6,97,860,50,2018-07-25,15,Falcon 9
+1079,Iridium Next SV 165,USA,"Iridium Communications, Inc.",Communications,LEO,609,623,86.6,97,860,50,2018-07-25,15,Falcon 9
+1080,Iridium Next SV 166,USA,"Iridium Communications, Inc.",Communications,LEO,609,623,86.6,97,860,50,2018-07-25,15,Falcon 9
+1081,Iridium Next SV 167,USA,"Iridium Communications, Inc.",Communications,LEO,612,625,86.7,97,860,50,2019-01-11,15,Falcon 9
+1082,Iridium Next SV 168,USA,"Iridium Communications, Inc.",Communications,LEO,608,626,86.7,97,860,50,2019-01-11,15,Falcon 9
+1083,Iridium Next SV 169,USA,"Iridium Communications, Inc.",Communications,LEO,609,626,86.7,97,860,50,2019-01-11,15,Falcon 9
+1084,Iridium Next SV 170,USA,"Iridium Communications, Inc.",Communications,LEO,610,626,86.7,97,860,50,2019-01-11,15,Falcon 9
+1085,Iridium Next SV 171,USA,"Iridium Communications, Inc.",Communications,LEO,609,626,86.7,97,860,50,2019-01-11,15,Falcon 9
+1086,Iridium Next SV 172,USA,"Iridium Communications, Inc.",Communications,LEO,608,626,86.7,97,860,50,2019-01-11,15,Falcon 9
+1087,Iridium Next SV 173,USA,"Iridium Communications, Inc.",Communications,LEO,608,626,86.7,97,860,50,2019-01-11,15,Falcon 9
+1088,Iridium Next SV 175,USA,"Iridium Communications, Inc.",Communications,LEO,611,625,86.7,97,860,50,2019-01-11,15,Falcon 9
+1089,Iridium Next SV 176,USA,"Iridium Communications, Inc.",Communications,LEO,611,626,86.7,97,860,50,2019-01-11,15,Falcon 9
+1090,Iridium Next SV 180,USA,"Iridium Communications, Inc.",Communications,LEO,611,626,86.7,97,860,50,2019-01-11,15,Falcon 9
+1091,IRIS (Interface Region Imaging Spectrometer),USA,National Aeronautics and Space Administration (NASA),Space Science,LEO,620,664,97.9,97.5,236,50,2013-06-28,2,L1011
+1092,IRNSS-1A (Indian Regional Navigation Satellite System),India,Indian Space Research Organization (ISRO),Navigation/Regional Positioning,GEO,35712,35872,27.1,1436,1425,1660,2013-07-01,12,PSLV
+1093,IRNSS-1B (Indian Regional Navigation Satellite System),India,Indian Space Research Organization (ISRO),Navigation/Regional Positioning,GEO,35695,35880,30.97,1436.14,1432,1660,2014-04-04,12,PSLV
+1094,IRNSS-1C (Indian Regional Navigation Satellite System),India,Indian Space Research Organization (ISRO),Navigation/Regional Positioning,GEO,35690,35871,4.96,1435.8,1425,1660,2014-10-15,12,PSLV-XL
+1095,IRNSS-1D (Indian Regional Navigation Satellite System),India,Indian Space Research Organization (ISRO),Navigation/Regional Positioning,GEO,35699,35834,30.04,1435.06,1425,1600,2015-03-30,12,PSLV-C27
+1096,IRNSS-1E (Indian Regional Navigation Satellite System),India,Indian Space Research Organization (ISRO),Navigation/Regional Positioning,GEO,35695,35874,28.09,1436.01,1425,1600,2016-01-20,12,PSLV-XL
+1097,IRNSS-1F (Indian Regional Navigation Satellite System),India,Indian Space Research Organization (ISRO),Navigation/Regional Positioning,GEO,35700,35874,5.09,1436.13,1425,1600,2016-03-10,12,PSLV-XL
+1098,IRNSS-1G (Indian Regional Navigation Satellite System),India,Indian Space Research Organization (ISRO),Navigation/Regional Positioning,GEO,35774,35797,5.06,1436.05,1425,1600,2016-04-28,12,PSLV
+1099,IRNSS-1I (Indian Regional Navigation Satellite System),India,Indian Space Research Organization (ISRO),Navigation/Regional Positioning,GEO,35702,35872,28.5,1436.1,1425,1600,2018-04-11,10,PSLV
+1100,IRS-P6 (Resourcesat-1) ,India,Indian Space Research Organization (ISRO),Earth Observation,LEO,817,823,98.8,101.3,1360,1200,2003-10-17,5,PSLV C5
+1106,Jason 2 ,USA/France,National Aeronautics and Space Administration (NASA)/Centre National d'Etudes Spatiales (CNES)/NOAA/EUMETSAT,Earth Observation,LEO,1332,1344,66,112.4,553,500,2008-06-20,5,Delta 2
+1107,Jason 3,USA/France,National Aeronautics and Space Administration (NASA)/Centre National d'Etudes Spatiales (CNES)/NOAA/EUMETSAT,Earth Observation,LEO,1301,1324,66,111.8,553,500,2016-01-17,5,Falcon 9
+1109,"JCSat 110 (N-Sat-110, Superbird-D, Superbird-5, N-Sat-110)",Japan,Sky Perfect JSAT Corporation,Communications,GEO,35784,35789,0.01,1436.11,3531,7200,2000-10-07,15,Ariane 44L
+1114,"JCSat 2A (JCSAT 8, Japan Communications Satellite 8)",Japan,Sky Perfect JSAT Corporation,Communications,GEO,35788,35794,0.01,1436.1,2500,3500,2002-03-29,11,Ariane 44L
+1115,"JCSat 4A (JCSAT 6, Japan Communications Satellite 6)",Japan,Sky Perfect JSAT Corporation,Communications,GEO,33782,37768,0.07,1435.52,2900,5200,1999-02-15,14.5,Atlas 2AS
+1134,Kalpana-1 (Metsat-1),India,Indian Space Research Organization (ISRO),Earth Observation,GEO,35783,35789,0.04,1436.08,1060,550,2002-09-12,7,PSLV
+1135,Kanopus-B (Kanopus Vulcan 1) ,Russia,Scientific Production Corporation (joint stock creation of Russian Space Agency),Earth Observation,LEO,501,505,97.5,94.7,400,300,2012-07-22,5,Soyuz-Fregat
+1141,KazEOSat-1 (Kazcosmos Earth Observation Satellite),Kazakhstan,Kazcosmos,Earth Observation,LEO,751,754,98.53,99.87,830,1200,2014-04-30,7.25,Vega
+1142,KazEOSat-2 (kazcosmos Earth Observation Satellite),Kazakhstan,Kazcosmos,Earth Observation,LEO,612,636,97.99,97.19,185,55,2014-06-19,7,Dnepr
+1160,"Kompsat-2 (Arirang 2, Korean planned Multipurpose Satellite-2)",South Korea,Korea Aerospace Research Institute (KARI),Earth Observation/Technology Development,LEO,676,698,98.2,98.5,800,955,2006-07-28,3,Rokot
+1161,"Kompsat-3 (Arirang 3, Korean Multipurpose Satellite-3)",South Korea,Korea Aerospace Research Institute (KARI),Earth Observation,LEO,679,696,98.2,98.5,980,1300,2012-05-17,4,H2A
+1162,"Kompsat-3A (Arirang 3A, Korean Multipurpose Satellite-3A)",South Korea,Korea Aerospace Research Institute (KARI),Earth Observation,LEO,522,540,97.5,95.25,980,1300,2015-03-25,4,Dnepr
+1163,"Kompsat-5 (Arirang 5, Korean Multipurpose Satellite-4)",South Korea,Korea Aerospace Research Institute (KARI),Earth Observation,LEO,535,552,97.6,95.5,1400,1400,2013-08-22,5,Dnepr
+1166,Koreasat 5A (Mugungwha 5A),South Korea,KT Corporation,Communications,GEO,35787,35799,0,1436,3700,6500,2017-10-30,15,Falcon 9
+1182,Landsat 7 ,USA,National Aeronautics and Space Administration (NASA)/US Geological Survey,Earth Observation,LEO,702,703,98.2,98.8,2744,1500,1999-04-15,15,Delta 2
+1183,Landsat 8,USA,National Aeronautics and Space Administration (NASA)/US Geological Survey,Earth Observation,LEO,700,705,98.2,98.8,2780,4300,2013-02-11,5,Atlas 5
+1292,Luch 5V,Russia,Russian Federal Space Agency,Communications,GEO,35767,35802,4.76,1435.99,1148,2200,2014-04-28,10,Proton M
+1298,Maroc Tubsat ,Morocco/Germany,CTRS Morocco/Institut für Luft-und Raumfahrttechnik (Berlin),Technology Development,LEO,984,1014,99.2,105.1,47,56,2001-12-10,3,Zenit
+1302,Measat 3 (Malaysia East Asia Sat 3),Malaysia,MEASAT Satellite Systems Sdn. Bhd.,Communications,GEO,35778,35794,0,1436.1,4900,10800,2006-12-11,15,Proton M
+1304,Measat 3B (Malaysia East Asia Sat 3B),Malaysia,MEASAT Satellite Systems Sdn. Bhd.,Communications,GEO,35772,35802,0.05,1436.11,5800,16000,2014-09-11,15,Ariane 5 ECA
+1319,"Meteosat 8 (MSGalaxy-1, MSG-1)",Multinational,EUMETSAT (European Organization for the Exploitation of Meteorological Satellites),Earth Observation,GEO,35781,35793,0.46,1436.1,2000,700,2002-08-21,12,Ariane 5
+1320,"Meteosat 9 (MSGalaxy-2, MSG 2)",Multinational,EUMETSAT (European Organization for the Exploitation of Meteorological Satellites),Earth Observation,GEO,35775,35795,0.29,1436,2000,700,2005-12-21,12,Ariane 5G
+1324,Mexsat-3 (Mexsat Bicentenario),Mexico,Mexico Telecomm,Communications,GEO,35784,35791,0.07,1436.16,2900,3500,2012-12-19,15,Atlas 5 ECA
+1331,"Milstar DFS-1 (USA 99, Milstar 1-F1) (Military Strategic and Tactical Relay)",USA,US Air Force,Communications,GEO,35754,35819,5.99,1436.13,4536,8000,1994-02-07,10,Titan 4A
+1332,"Milstar DFS-4 (USA 157, Milstar 2-F2) (Military Strategic and Tactical Relay)",USA,US Air Force,Communications,GEO,35764,35768,4.5,1435.04,4536,8000,2001-02-27,12,Titan 4B
+1333,"Milstar DFS-5 (USA 164, Milstar 2-F3) (Military Strategic and Tactical Relay)",USA,US Air Force,Communications,GEO,35753,35820,3.45,1436.12,4536,8000,2002-01-16,12,Titan 4B
+1334,Milstar DFS-6 (USA 169) (Military Strategic and Tactical Relay),USA,US Air Force,Communications,GEO,35768,35806,0.82,1436.13,4536,8000,2003-04-08,12,Titan 4B
+1342,MOST (Microvariability & Oscillations of STars),Canada,Canadian Space Agency,Space Science,LEO,817,832,98.7,101.4,53,35,2003-06-30,1,Rokot
+1347,MSAT 1 ,USA/Canada,Mobile Satellite Ventures,Communications,GEO,35763,35809,1.37,1436.09,2850,3300,1996-04-20,12,Ariane 42P
+1348,"MSAT 2 (AMSC-1, ACTel-1)",USA/Canada,Mobile Satellite Ventures,Communications,GEO,35776,35796,4.02,1436.09,2850,3300,1995-04-07,10,Atlas 2A
+1349,MTI (Multispectral Thermal Imager),USA,US Department of Energy/Office of Nonproliferation and National Security,Technology Development,LEO,461,478,97.47,94.9,587,575,2000-03-12,3,Taurus
+1350,MTSAT-2 (Multi-Functional Transport Satellite),Japan,Japan Meteorological Agency/Meteorological Satellite Center (MSC),Earth Observation,GEO,35776,35797,0.01,1436.1,2900,2700,2006-02-18,5,H2A
+1361,"Navstar GPS IIF-10 (Navstar SVN 72, PRN 8, USA 262)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20446,20459,54.9,728.96,1630,1136,2015-07-15,12,Atlas 5
+1365,"Navstar GPS IIF-3 (Navstar SVN 65, PRN 24, USA 239)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20174,20191,54.95,718,1630,1136,2012-10-04,10,Delta 4
+1366,"Navstar GPS IIF-4 (Navstar SVN 66, PRN 27, USA 242)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20184,20247,55.09,719.32,1630,1136,2013-05-15,10,Atlas 5
+1367,"Navstar GPS IIF-5 (Navstar SVN 64, PRN 30, USA 248)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20457,20469,54.98,729.39,1630,1136,2014-02-21,10,Delta 4
+1368,"Navstar GPS IIF-6 (Navstar SVN 67, PRN 06, USA 251)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20174,20188,55.05,717.92,1630,1136,2014-05-17,10,Delta 4
+1369,"Navstar GPS IIF-7 (Navstar SVN 68, PRN 09, USA 256)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20471,20476,54.92,729,1630,1136,2014-08-02,10,Atlas 5
+1370,"Navstar GPS IIF-8 (Navstar SVN 69, PRN 03, USA 258)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20155,20211,54.97,718.02,1630,1136,2014-10-29,10,Atlas 5
+1371,"Navstar GPS IIF-9 (Navstar SVN 71, PRN 26, USA 260)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20445,20469,55,729.14,1630,1136,2015-03-25,12,Delta 4M
+1373,"Navstar GPS III-2 (Navstar SVN 78, USA 293)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20188,20203,55.1,718.01,2300,1136,2019-08-22,15,Delta 4
+1374,"Navstar GPS IIR-10 (Navstar SVN 47, PRN 22, USA 175)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,19963,20327,55.1,716.47,2217,1136,2003-12-21,10,Delta 2
+1375,"Navstar GPS IIR-11 (Navstar SVN 59, PRN 19, USA 177)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20089,20276,55,717.98,2217,1136,2004-03-20,10,Delta 2
+1376,"Navstar GPS IIR-12 (Navstar SVN 60, PRN 23, USA 178)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20072,20292,55.37,717.96,2217,1136,2004-06-23,10,Delta 2
+1377,"Navstar GPS IIR-13 (Navstar SVN 61, PRN 02, USA 180)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,19938,20426,54.8,718,2217,1136,2004-11-06,10,Delta 2
+1378,"Navstar GPS IIR-2 (Navstar SVN 43, PRN 13, USA 132)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20123,20247,54.9,718.09,2217,1136,1997-07-23,10,Delta 2
+1379,"Navstar GPS IIR-3 (Navstar SVN 46, PRN 11, USA 145)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20096,20268,53,717.97,2217,1136,1999-10-07,10,Delta 2
+1380,"Navstar GPS IIR-4 (Navstar SVN 51, PRN 20, USA 150)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20133,20234,54.9,718.03,2217,1136,2000-05-11,10,Delta 2
+1381,"Navstar GPS IIR-5 (Navstar SVN 44, PRN 28, USA 151)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20184,20427,55,722.98,2217,1136,2000-07-16,10,Delta 2
+1382,"Navstar GPS IIR-6 (Navstar SVN 41, PRN 14, USA 154)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20177,20498,55,724.28,2217,1136,2000-11-10,10,Delta 2
+1383,"Navstar GPS IIR-7 (Navstar SVN 54, PRN 18, USA 156)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20104,20266,55,718.09,2217,1136,2001-01-30,10,Delta 2
+1384,"Navstar GPS IIR-8 (Navstar SVN 56, PRN 16, USA 166)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20155,20344,55,720.71,2217,1136,2003-01-29,10,Delta 2
+1385,"Navstar GPS IIR-9 (Navstar SVN 45, PRN 21, USA 168)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20063,20433,54.9,720.65,2217,1136,2003-03-31,10,Delta 2
+1386,"Navstar GPS IIR-M-1 (Navstar SVN 53, PRN 17, USA 183)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20142,20221,55.08,717.95,2217,1136,2005-09-26,10,Delta 2
+1389,"Navstar GPS IIR-M-4 (Navstar SVN 55, PRN 15, USA 196)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20149,20213,54.8,717.93,2217,1136,2007-10-17,10,Delta 2
+1391,"Navstar GPS IIR-M-6 (Navstar SVN 48, PRN 07, USA 201)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20135,20152,55.1,716.4,2217,1136,2008-03-15,10,Delta 2
+1392,"Navstar GPS IIR-M-8 (Navstar SVN 50, PRN 05, USA 206)",USA,DoD/US Air Force,Navigation/Global Positioning,MEO,20160,20209,55.12,718.07,2059,1136,2009-08-17,10,Delta 2
+1402,Nilesat 201,Egypt,Egyptian Radio and TV Union ,Communications,GEO,35795,35813,0.05,1436.23,3200,3700,2010-08-04,15,Ariane 5
+1403,Nimiq 2 ,Canada,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35779,35793,0.01,1436.08,3600,8600,2002-12-29,12,Proton
+1404,Nimiq 4,Canada,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35779,35794,0.01,1436.1,4850,12000,2008-09-19,15,Proton
+1408,NOAA-15 (NOAA-K),USA,National Oceanographic and Atmospheric Administration (NOAA) (part of international program),Earth Observation,LEO,800,816,98.7,101,2223,830,1998-05-13,3,Titan 2
+1409,"NOAA-18 (NOAA-N, COSPAS-SARSAT)",USA,National Oceanographic and Atmospheric Administration (NOAA) (part of international program),Earth Observation,LEO,843,864,99.1,102,2223,830,2005-05-20,3,Delta 2
+1425,NSS-7 ,Netherlands,SES S.A.,Communications,GEO,35775,35798,0.08,1436.12,4500,3900,2002-04-16,14,Ariane 42L
+1426,NSS-9,Netherlands,SES S.A.,Communications,GEO,35784,35792,0.02,1436.17,2238,2300,2009-02-11,15,Ariane 5 ECA
+1427,N-Star C ,Japan,Sky Perfect JSAT Corporation,Communications,GEO,35772,35799,0.06,1436.08,1625,2600,2002-07-05,15,Ariane 5
+1459,Odin ,Sweden,Swedish National Space Board,Earth Observation,LEO,569,573,97.6,96.1,250,340,2001-02-20,2,Start 1
+1474,Optus and Defence C1 ,Australia,Optus Communications (Parent: Singapore Telecom)/Australian Ministry of Defense,Communications,GEO,35773,35799,0.02,1436.08,4800,10600,2003-06-12,15,Ariane 5G
+1475,Optus D1 ,Australia,Optus Communications (Parent: Singapore Telecom),Communications,GEO,35774,35797,0.02,1436.08,2300,4800,2006-10-13,15,Ariane 5 ECA
+1476,Optus D2,Australia,Optus Communications (Parent: Singapore Telecom),Communications,GEO,35774,35799,0.03,1436.1,2400,3800,2007-10-05,15,Ariane 5
+1477,Optus D3,Australia,Optus Communications (Parent: Singapore Telecom),Communications,GEO,35775,35795,0.04,1436.04,2501,5000,2009-08-21,15,Ariane 5
+1478,ORBCOMM FM-10 (ORBCOMM A2),USA,ORBCOMM Inc.,Communications,LEO,770,776,45,100.3,45,160,1997-12-23,5,Pegasus
+1479,ORBCOMM FM-11 (ORBCOMM A3),USA,ORBCOMM Inc.,Communications,LEO,769,777,45,100.3,45,160,1997-12-23,5,Pegasus
+1480,ORBCOMM FM-12 (ORBCOMM A4),USA,ORBCOMM Inc.,Communications,LEO,770,776,45,100.3,45,160,1997-12-23,5,Pegasus
+1481,ORBCOMM FM-13 (ORBCOMM B1),USA,ORBCOMM Inc.,Communications,LEO,788,795,45,100.7,45,160,1998-08-02,5,Pegasus XL
+1482,ORBCOMM FM-14 (ORBCOMM B2),USA,ORBCOMM Inc.,Communications,LEO,789,794,45,100.7,45,160,1998-08-02,5,Pegasus XL
+1483,ORBCOMM FM-15 (ORBCOMM B3),USA,ORBCOMM Inc.,Communications,LEO,788,795,45,100.7,45,160,1998-08-02,5,Pegasus XL
+1484,ORBCOMM FM-18 (ORBCOMM B6),USA,ORBCOMM Inc.,Communications,LEO,787,796,45,100.7,45,160,1998-08-02,5,Pegasus XL
+1485,ORBCOMM FM-19 (ORBCOMM B7),USA,ORBCOMM Inc.,Communications,LEO,788,795,45,100.7,45,160,1998-08-02,5,Pegasus XL
+1486,ORBCOMM FM-20 (ORBCOMM B8),USA,ORBCOMM Inc.,Communications,LEO,791,792,45,100.7,45,160,1998-08-02,5,Pegasus XL
+1487,ORBCOMM FM-21 (ORBCOMM C1),USA,ORBCOMM Inc.,Communications,LEO,810,822,45,101.21,45,160,1998-09-23,5,Pegasus
+1488,ORBCOMM FM-23 (ORBCOMM C3),USA,ORBCOMM Inc.,Communications,LEO,788,794,45,100.7,45,160,1998-09-23,5,Pegasus
+1489,ORBCOMM FM-27 (ORBCOMM C7),USA,ORBCOMM Inc.,Communications,LEO,790,792,45,100.7,45,160,1998-09-23,5,Pegasus
+1490,ORBCOMM FM-30 (ORBCOMM D2),USA,ORBCOMM Inc.,Communications,LEO,788,796,45,100.7,45,160,1999-12-04,5,Pegasus XL
+1491,ORBCOMM FM-31 (ORBCOMM D3),USA,ORBCOMM Inc.,Communications,LEO,788,795,45,100.7,45,160,1999-12-04,5,Pegasus XL
+1492,ORBCOMM FM-32 (ORBCOMM D4),USA,ORBCOMM Inc.,Communications,LEO,786,796,45,100.7,45,160,1999-12-04,5,Pegasus XL
+1493,ORBCOMM FM-35 (ORBCOMM D7),USA,ORBCOMM Inc.,Communications,LEO,788,795,45,100.7,45,160,1999-12-04,5,Pegasus XL
+1494,ORBCOMM FM-36 (ORBCOMM D8),USA,ORBCOMM Inc.,Communications,LEO,788,795,45,100.7,45,160,1999-12-04,5,Pegasus XL
+1495,ORBCOMM FM-4 (ORBCOMM G2),USA,ORBCOMM Inc.,Communications,LEO,768,838,108,100.9,45,160,1998-02-10,5,Taurus
+1496,ORBCOMM FM-5 (ORBCOMM A6),USA,ORBCOMM Inc.,Communications,LEO,772,774,45,100.3,45,160,1997-12-23,5,Pegasus
+1497,ORBCOMM FM-6 (ORBCOMM A7),USA,ORBCOMM Inc.,Communications,LEO,772,774,45,100.3,45,160,1997-12-23,5,Pegasus
+1498,ORBCOMM FM-7 (ORBCOMM A8),USA,ORBCOMM Inc.,Communications,LEO,771,774,45,100.3,45,160,1997-12-23,5,Pegasus
+1499,ORBCOMM FM-8 (ORBCOMM A1),USA,ORBCOMM Inc.,Communications,LEO,768,778,45,100.3,45,160,1997-12-23,5,Pegasus
+1500,ORBCOMM FM-9 (ORBCOMM A5),USA,ORBCOMM Inc.,Communications,LEO,769,777,45,100.3,45,160,1997-12-23,5,Pegasus
+1501,ORBCOMM OG2 FM-103,USA,ORBCOMM Inc.,Communications,LEO,620,741,47,98.36,172,400,2014-07-14,5,Falcon 9
+1502,ORBCOMM OG2 FM-107,USA,ORBCOMM Inc.,Communications,LEO,620,739,47,98.34,172,400,2014-07-14,5,Falcon 9
+1503,ORBCOMM OG2 FM-108,USA,ORBCOMM Inc.,Communications,LEO,614,657,47,97.42,172,400,2015-12-22,5,Falcon 9
+1504,ORBCOMM OG2 FM-109,USA,ORBCOMM Inc.,Communications,LEO,620,739,47,98.34,172,400,2014-07-14,5,Falcon 9
+1505,ORBCOMM OG2 FM-110,USA,ORBCOMM Inc.,Communications,LEO,615,658,47,97.44,172,400,2015-12-22,5,Falcon 9
+1506,ORBCOMM OG2 FM-112,USA,ORBCOMM Inc.,Communications,LEO,614,657,47,97.43,172,400,2015-12-22,5,Falcon 9
+1507,ORBCOMM OG2 FM-113,USA,ORBCOMM Inc.,Communications,LEO,614,656,47,97.41,172,400,2015-12-22,5,Falcon 9
+1508,ORBCOMM OG2 FM-114,USA,ORBCOMM Inc.,Communications,LEO,614,658,47,97.43,172,400,2015-12-22,5,Falcon 9
+1509,ORBCOMM OG2 FM-115,USA,ORBCOMM Inc.,Communications,LEO,613,655,47,97.39,172,400,2015-12-22,5,Falcon 9
+1510,ORBCOMM OG2 FM-116,USA,ORBCOMM Inc.,Communications,LEO,614,654,47,97.4,172,400,2015-12-22,5,Falcon 9
+1511,ORBCOMM OG2 FM-117,USA,ORBCOMM Inc.,Communications,LEO,614,656,47,97.42,172,400,2015-12-22,5,Falcon 9
+1512,ORBCOMM OG2 FM-118,USA,ORBCOMM Inc.,Communications,LEO,615,658,47,97.44,172,400,2015-12-22,5,Falcon 9
+1521,Palapa D1,Indonesia,PT Indosat,Communications,GEO,35780,35792,0.07,1436.09,4100,6000,2009-08-31,15,Long March 3B
+1529,"PCSat (Prototype Communications SATellite, Navy-Oscar 44, NO-44)",USA,US Naval Academy,Communications/Technology Development,LEO,789,796,67,100.7,10,6,2001-09-30,5,Athena 1
+1539,Pléiades HR1A,France/Italy,"Ministry of Defense/Centre National d'Etudes Spatiales (CNES) - cooperation with Austria, Belgium, Spain, Sweden",Earth Observation,LEO,697,699,98.2,98.7,1000,1500,2011-12-17,5,Soyuz 2/Fregat
+1545,Proba 1 (Project for On-Board Autonomy),ESA,European Space Agency (ESA),Technology Demonstration,LEO,553,676,97.9,96.98,100,100,2001-10-22,2,PSLV C3
+1546,Proba 2 (Project for On-Board Autonomy),ESA,European Space Agency (ESA),Technology Demonstration,LEO,708,728,98.3,99.2,130,86,2009-11-02,2,Breeze KM
+1611,"Rodnik (Cosmos 2437, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1480,1511,82.5,115.9,280,300,2008-05-23,5,Rokot
+1612,"Rodnik (Cosmos 2438, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1477,1509,82.5,115.8,280,300,2008-05-23,5,Rokot
+1613,"Rodnik (Cosmos 2439, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1478,1510,82.5,115.8,280,300,2008-05-23,5,Rokot
+1614,"Rodnik (Cosmos 2451, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1498,1509,82.5,116,280,300,2009-07-06,5,Rokot
+1615,"Rodnik (Cosmos 2453, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1495,1506,82.5,116,280,300,2009-07-06,5,Rokot
+1618,"Rodnik (Cosmos 2481, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1481,1512,82.5,115.9,280,300,2012-07-28,5,Rokot
+1619,"Rodnik (Cosmos 2482, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1473,1516,82.5,115.86,250,300,2013-01-15,5,Rokot
+1620,"Rodnik (Cosmos 2483, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1473,1516,82.5,115.86,250,300,2013-01-15,5,Rokot
+1621,"Rodnik (Cosmos 2484, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1475,1514,82.5,115.86,250,300,2013-01-15,5,Rokot
+1622,"Rodnik (Cosmos 2488, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1478,1509,82.5,115.9,280,300,2013-12-25,5,Rokot
+1623,"Rodnik (Cosmos 2489, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1477,1507,82.5,115.8,280,300,2013-12-25,5,Rokot
+1624,"Rodnik (Cosmos 2490, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1482,1511,82.5,115.8,280,300,2013-12-25,5,Rokot
+1625,"Rodnik (Cosmos 2496, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1480,1511,82.44,115.88,280,300,2014-05-23,5,Rokot
+1626,"Rodnik (Cosmos 2497, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1478,1510,82.45,115.85,280,300,2014-05-23,5,Rokot
+1627,"Rodnik (Cosmos 2498, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1477,1509,82.44,115.82,280,300,2014-05-23,5,Rokot
+1628,"Rodnik (Cosmos 2507, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1497,1506,82.5,116.01,280,300,2015-09-23,5,Rokot
+1629,"Rodnik (Cosmos 2508, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1496,1504,82.49,115.99,280,300,2015-09-23,5,Rokot
+1630,"Rodnik (Cosmos 2509, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1498,1508,82.49,116.04,280,300,2015-09-23,5,Rokot
+1631,"Rodnik (Cosmos 2530, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1485,1508,82.5,116.04,280,300,2018-10-30,5,Rokot
+1632,"Rodnik (Cosmos 2531, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1485,1508,82.5,116.04,280,300,2018-10-30,5,Rokot
+1633,"Rodnik (Cosmos 2532, Strela 3M)",Russia,Ministry of Defense,Communications,LEO,1485,1508,82.5,116.04,280,300,2018-10-30,5,Rokot
+1636,"Rumba (part of Cluster quartet, Cluster 2 FM5)",ESA,European Space Agency (ESA) (and 250 international scientific investigators),Space Science,Elliptical,17240,120715,90.8,3431.1,1200,224,2000-08-09,4,Soyuz
+1638,"Salsa (part of Cluster quartet, Cluster 2 FM6)",ESA,European Space Agency (ESA) (and 250 international scientific investigators),Space Science,Elliptical,21998,110256,90.7,3418.2,1200,220,2000-07-16,4,Soyuz
+1639,"Samba (part of Cluster quartet, Cluster 2 FM7)",ESA,European Space Agency (ESA) (and 250 international scientific investigators),Space Science,Elliptical,22017,110791,132.98,3430.28,1200,220,2000-07-16,4,Soyuz
+1642,SARAL (Satellite with ARGOS and ALTIKA),India/France,Indian Space Research Organization (ISRO)/Centre National d'Etudes Spatiales (CNES),Earth Observation,LEO,782,785,98.5,100.53,407,906,2013-02-25,5,PSLV
+1679,SCD-1 (Satélite de Coleta de Dados),Brazil,Instituto Nacional de Pesquisas Espaciais (INPE),Earth Observation,LEO,716,776,25,99.7,110,70,1993-02-09,3,Pegasus
+1680,SCD-2 (Satélite de Coleta de Dados),Brazil,Instituto Nacional de Pesquisas Espaciais (INPE),Earth Observation,LEO,735,760,25,99.8,110,70,1998-10-23,3,Pegasus
+1682,SDO (Solar Dynamics Observatory),USA,National Aeronautics and Space Administration (NASA),Space Science,GEO,35779,35791,28,1436.03,3100,1500,2010-02-11,5,Atlas 5
+1690,SDS-4 (Small Demonstration Satellite-4),Japan,Japan Aerospace Exploration Agency (JAXA),Technology Development,LEO,661,673,98.2,98.1,50,120,2012-05-17,2,H2A
+1704,SES-12,Luxembourg,SES S.A.,Communications,GEO,35785,35785,0,1436,5300,15000,2018-06-04,15,Falcon 9
+1707,SES-2,Luxembourg,SES S.A.,Communications,GEO,35778,35798,0.01,1436.19,3200,5000,2011-09-21,18,Ariane 5 ECA
+1714,SES-9,Luxembourg,SES S.A.,Communications,GEO,35787,35791,0.05,1436.2,5271,12700,2016-03-04,15,Falcon 9
+1749,Sicral 1A ,Italy,Italian Defense Ministry,Communications,GEO,35769,35802,1.01,1436.06,2596,3300,2001-02-07,12,Ariane 44L
+1751,Sicral 2/Syracuse 3C,France/Italy,Italian Defense Ministry/French Defense Ministry,Communications,GEO,35770,35800,0,1436,4400,7700,2015-04-26,15,Ariane 5
+1760,Sirius FM-5,USA,Sirius XM Holdings,Communications,GEO,35774,35798,0,1436,5800,20000,2009-06-30,15,Proton M
+1761,Sirius FM-6,USA,Sirius XM Holdings,Communications,GEO,35785,35791,0.08,1436.16,6020,20000,2013-10-25,15,Proton M
+1762,Sirius XM-5,USA,Sirius XM Holdings,Communications,GEO,35779,35795,0.03,1436.12,5983,18000,2010-10-14,15,Proton M
+1766,Sky Muster 1 (NBN-1A),Australia,NBN Co (operated by Optus),Communications,GEO,35744,35777,0.07,1434.76,6440,16400,2015-09-30,15,Ariane 5 ECA
+1767,Sky Muster 2 (NBN-1B),Australia,NBN Co (operated by Optus),Communications,GEO,35790,35798,0,1436.1,6405,16400,2016-10-05,15,Ariane 5
+1768,SkyBrasil-1 (Intelsat 32E),Brazil,DirecTV Latin America/Intelsat,Communications,GEO,35785,35787,0,1436,6000,16000,2017-02-14,15,Ariane 5 ECA
+1769,Skynet 4C ,United Kingdom,Intelsat/Paradigm Secure Communications (wholly owned by EADS Astrium),Communications,GEO,35775,35797,13.6,1436.07,1474,1200,1990-08-30,7,Ariane 44LP
+1770,Skynet 4E ,United Kingdom,Ministry of Defense,Communications,GEO,35774,35797,4.99,1436.06,1510,1200,1999-02-26,7,Ariane 44L
+1771,Skynet 4F ,United Kingdom,Ministry of Defense,Communications,GEO,35773,35801,3.23,1436.15,1510,1200,2001-02-07,7,Ariane 44L
+1772,Skynet 5A,United Kingdom,Ministry of Defense/Paradigm Secure Communications (wholly owned by EADS Astrium),Communications,GEO,35771,35802,0.07,1436.1,4700,6000,2007-03-11,15,Ariane 5 ECA
+1773,Skynet 5B,United Kingdom,Ministry of Defense/Paradigm Secure Communications (wholly owned by EADS Astrium),Communications,GEO,35700,35803,0.07,1436.1,4635,6000,2007-11-14,15,Ariane 5
+1799,SMOS (Soil Moisture and Ocean Salinity satellite),ESA,Centre National d'Etudes Spatiales (CNES)/European Space Agency (ESA),Earth Observation,LEO,759,760,98.4,100,658,1065,2009-11-02,3,Breeze KM
+1814,SORCE (SOlar Radiation and Climate Experiment),USA,"National Aeronautics and Space Administration (NASA) Earth Science Office/Laboratory for Atmospheric and Space Physics, Univ. of Colorado",Space Science,LEO,600,633,40,97,315,348,2003-01-25,6,Pegasus XL
+1826,Spaceway F1,USA,"DirecTV, Inc.",Communications,GEO,35785,35787,0.05,1436.1,5993,12300,2005-04-26,12.5,Zenit 3SL
+1827,Spaceway F2,USA,"DirecTV, Inc.",Communications,GEO,35785,35787,0.04,1436.1,5993,12300,2005-11-16,12.5,Ariane 5 ECA
+1844,Star One C1,Brazil,Embratel Star One,Communications,GEO,35703,35778,0.03,1436,4100,10500,2007-11-14,15,Ariane 5
+1847,Star One C4,Brazil,Embratel Star One,Communications,GEO,35786,35801,0,1436.1,5634,15600,2015-07-15,15,Ariane 5 ECA
+1922,STSat-2C,South Korea,Korea Aerospace Research Institute (KARI),Technology Development,LEO,298,1482,80.28,102.77,93,160,2013-01-30,2,Naro-1
+1933,SWARM-A,ESA,European Space Agency (ESA),Earth Observation,LEO,473,476,87.3,93.9,468,608,2013-11-22,4,Rokot
+1934,SWARM-B,ESA,European Space Agency (ESA),Earth Observation,LEO,473,476,87.3,93.9,468,608,2013-11-22,4,Rokot
+1935,SWARM-C,ESA,European Space Agency (ESA),Earth Observation,LEO,486,496,87.5,94,468,608,2013-11-22,4,Rokot
+1938,Swift ,USA/United Kingdom/Italy,Goddard Space Flight Center/Penn State University,Space Science,LEO,571,590,20.6,96.3,1463,1040,2004-11-20,7,Delta 7320
+1940,Syracuse 3A (Systeme de Radio Communications Utilisant un Satellite),France,Defense Ministry,Communications,GEO,35778,35792,0,1436.06,3725,5640,2005-10-13,12,Ariane 5
+1946,"Tango (part of Cluster quartet, Cluster 2 FM8)",ESA,European Space Agency (ESA) (and 250 international scientific investigators),Space Science,Elliptical,17313,120961,90.7,3442,1200,220,2000-08-09,4,Soyuz
+1951,"TDRS-10 (Tracking and Data Relay Satellite, TDRS-J)",USA,National Aeronautics and Space Administration (NASA),Communications,GEO,35768,35802,1.64,1436.04,3180,2300,2002-12-04,11,Atlas 2A
+1952,"TDRS-11 (Tracking and Data Relay Satellite, TDRS K)",USA,National Aeronautics and Space Administration (NASA)/Goddard Space Flight Center,Communications,GEO,35732,35844,7,1436.18,3454,2300,2013-01-31,15,Atlas 5
+1953,"TDRS-12 (Tracking and Data Relay Satellite, TDRS L)",USA,National Aeronautics and Space Administration (NASA),Communications,GEO,35780,35785,6.99,1435.88,3454,3500,2014-01-23,15,Atlas 5
+1954,"TDRS-13 (Tracking and Data Relay Satellite, TDRS M)",USA,National Aeronautics and Space Administration (NASA),Communications,GEO,35755,35813,0,1436,3452,3500,2017-08-18,15,Atlas 5
+1955,"TDRS-3 (Tracking and Data Relay Satellite, TDRS-C) ",USA,National Aeronautics and Space Administration (NASA),Communications,GEO,35693,35878,11.53,1436.06,3180,1800,1988-09-29,10,Space Shuttle (STS 26)
+1956,"TDRS-5 (Tracking and Data Relay Satellite, TDRS-E)",USA,SES S.A.,Communications,GEO,35773,35796,9.4,1436.99,3180,1800,1991-08-02,10,Space Shuttle (STS 43)
+1957,"TDRS-6 (Tracking and Data Relay Satellite, TDRS-F)",USA,National Aeronautics and Space Administration (NASA)/SES Americom (SES [Société Européenne des Satellites (SES)]),Communications,GEO,35773,35787,8.74,1435.7,3180,1800,1993-01-13,10,Space Shuttle (STS 54)
+1958,"TDRS-7 (Tracking and Data Relay Satellite, TDRS-G)",USA,National Aeronautics and Space Administration (NASA),Communications,GEO,35767,35803,10.6,1436.04,3180,1800,1995-07-13,10,Space Shuttle (STS 70)
+1959,"TDRS-8 (Tracking and Data Relay Satellite, TDRS-H)",USA,National Aeronautics and Space Administration (NASA),Communications,GEO,35768,35808,0.9,1436.2,3180,2300,2000-06-30,11,Atlas 2A
+1960,"TDRS-9 (Tracking and Data Relay Satellite, TDRS-I)",USA,National Aeronautics and Space Administration (NASA),Communications,GEO,35768,35809,0.02,1436.11,3180,2300,2002-03-08,11,Atlas 2A
+1966,Telkom 3S,Indonesia,PT Telkomunikasi,Communications,GEO,35780,35795,0,1436.1,3550,6400,2017-02-14,18,Ariane 5 ECA
+1968,Telstar 12 (Orion 2),Multinational,EUTELSAT S.A. -- leased from Loral Skynet Satellite Services (Loral Global Alliance) ,Communications,GEO,35773,35799,0.05,1436.09,3878,10600,1999-10-19,13,Ariane 44LP
+1970,Telstar 14R (Estrela do Sul 2),Canada,"Telesat Canada Ltd. (BCE, Inc.)",Communications,GEO,35783,35791,0.02,1436.1,4970,12000,2011-05-20,15,Proton
+1971,Telstar 18 (Apstar 5),Multinational,Loral Skynet Satellite Services (Loral Global Alliance)/APT Satellite Holdings Ltd.,Communications,GEO,35778,35795,0.01,1436.1,4640,16000,2004-06-29,13,Zenit 3SL
+1980,"TET-1 (Technologieerprobungsträger 1, Technology Experiment Carrier)",Germany,German Aerospace Center (DLR),Technology Development,LEO,501,505,97.5,94.7,120,20,2012-07-22,1,Soyuz-Fregat
+1981,"Thaicom-4 (Ipstar 1, Measat 5)",Thailand,Thaicom Public Company Ltd. ,Communications,GEO,35775,35798,0,1436.1,6505,14000,2005-08-11,12,Ariane 5G
+1982,Thaicom-5,Thailand,Thaicom Public Company Ltd. ,Communications,GEO,35777,35796,0.04,1436.1,2800,5000,2006-05-27,12,Ariane 5 ECA
+1986,THEMIS A (Time History of Events and Macroscale Interactions during Substorms) ,Multinational,"National Aeronautics and Space Administration (NASA)/University of California, Berkeley (in partnership with Germany, France, Austria, Canada)",Space Science,Elliptical,461,87304,15.7,1868.98,126,40,2007-02-17,2,Delta 2
+1987,THEMIS D (Time History of Events and Macroscale Interactions during Substorms) ,Multinational,"National Aeronautics and Space Administration (NASA)/University of California, Berkeley (in partnership with Germany, France, Austria, Canada)",Space Science,Elliptical,467,87260,15.7,1867.91,126,40,2007-02-17,2,Delta 2
+1988,THEMIS E (Time History of Events and Macroscale Interactions during Substorms) ,Multinational,"National Aeronautics and Space Administration (NASA)/University of California, Berkeley (in partnership with Germany, France, Austria, Canada)",Space Science,Elliptical,474,87526,15.7,1875.53,126,40,2007-02-17,2,Delta 2
+1989,THEOS (Thailand Earth Observation System),Thailand,Geo-Informatics and Space Technology Development Agency (GISTDA),Earth Observation,LEO,824,826,98.7,101.4,750,840,2008-10-01,5,Dnepr
+1990,Thor-3 ,Norway,Telenor Satellite Broadcasting,Communications,GEO,35777,35795,0.07,1436.07,1400,1400,1998-06-10,12,Delta 2
+1992,Thor-6,Norway,Telenor Satellite Broadcasting,Communications,GEO,35779,35794,0.02,1436.1,3050,5900,2009-10-29,15,Ariane 5
+1994,Thuraya 2 ,United Arab Emirates,Thuraya Satellite Communications,Communications,GEO,35764,35807,2.99,1436.07,5250,11000,2003-06-10,12,Zenit 3SL
+2021,TIMED (Thermosphere • Ionosphere • Mesosphere • Energetics and Dynamics),USA,"National Aeronautics and Space Administration (NASA)/Applied Physics Laboratory, Johns Hopkins",Space Science,LEO,612,613,74.1,97,587,406,2001-12-07,2,Delta 2
+2037,"UFO-10 (USA 146, UHF F/O F10) ""UHF Follow-On""",USA,US Navy,Communications,GEO,35738,35834,1.97,1436.1,3200,3800,1999-11-24,4,Atlas 2
+2038,"UFO-11  (USA 174) ""UHF Follow-On""",USA,US Navy,Communications,GEO,35786,35787,2.16,1436.1,3200,2800,2003-12-18,4,Atlas 3
+2040,"UFO-4 (USA 108, UFO F4 EHF) ""UHF Follow-On""",USA,US Navy,Communications,GEO,35763,35775,3.34,1435.22,3200,2800,1995-01-29,4,Atlas 2
+2041,"UFO-8 (USA 138, UHF F/O F8) ""UHF Follow-On""",USA,US Navy,Communications,GEO,35772,35794,5.24,1435.94,3206,3800,1998-03-16,4,Atlas 2
+2069,"Wideband Global Satcom 1 (WGS-1, USA 195)",USA,Military Satellite Communications - US Air Force,Communications,GEO,35783,35790,0,1436.1,5900,13000,2007-10-11,14,Atlas 5
+2070,"Wideband Global Satcom 10 (WGS-10, USA 291)",USA,Military Satellite Communications - US Air Force,Communications,GEO,35765,35795,0,1436.1,5990,13000,2019-03-16,14,Delta 4
+2071,"Wideband Global Satcom 2 (WGS-2, USA 204)",USA,Military Satellite Communications - US Air Force,Communications,GEO,35786,35787,0.03,1436.12,5987,13000,2009-04-04,14,Atlas 5
+2072,"Wideband Global Satcom 3 (WGS-3, USA 211)",USA,Military Satellite Communications - US Air Force,Communications,GEO,35785,35786,0,1436.1,5990,13000,2009-12-06,14,Delta 4
+2073,"Wideband Global Satcom 4 (WGS-4, USA 233)",USA,Military Satellite Communications - US Air Force,Communications,GEO,35785,35786,0.01,1436.1,5990,13000,2012-01-20,14,Delta 4
+2074,"Wideband Global Satcom 5 (WGS-5, USA 243)",USA,Military Satellite Communications - US Air Force,Communications,GEO,35739,35784,0,1436.1,5990,13000,2013-05-25,14,Delta 4
+2075,"Wideband Global Satcom 6 (WGS-6, USA 244)",USA,Military Satellite Communications - US Air Force,Communications,GEO,35772,35801,0,1436.1,5990,13000,2013-08-08,14,Delta 4
+2076,"Wideband Global Satcom 7 (WGS-7, USA 263)",USA,Military Satellite Communications - US Air Force,Communications,GEO,35772,35801,0,1436.1,5990,13000,2015-07-24,14,Delta 4
+2077,"Wideband Global Satcom 8 (WGS-8, USA 272)",USA,Military Satellite Communications - US Air Force,Communications,GEO,35770,35770,0,1436.1,5990,13000,2016-12-07,14,Delta 4
+2078,"Wideband Global Satcom 9 (WGS-9, USA 275)",USA,Military Satellite Communications - US Air Force,Communications,GEO,35772,35801,0,1436.1,5990,13000,2017-03-17,14,Delta 4
+2079,WildBlue 1,USA,WildBlue Communications,Communications,GEO,35776,35796,0.01,1436.1,4735,10000,2006-12-08,12,Ariane 5
+2082,Worldview 1,USA,DigitalGlobe Corporation,Earth Observation,LEO,491,494,97.3,94.5,4500,3200,2007-09-18,7.25,Delta 2
+2084,Worldview 3,USA,DigitalGlobe Corporation,Earth Observation,LEO,612,614,97.99,96.96,2800,3100,2014-08-13,12,Atlas 5
+2094,XM Radio 3 (Rhythm),USA,XM Satellite Radio USA,Communications,GEO,35782,35790,0.01,1436.1,4703,18000,2005-03-01,15,Zenit 3SL
+2095,XM Radio 4 (Blues),USA,XM Satellite Radio USA,Communications,GEO,35784,35787,0.01,1436.09,5193,18000,2006-10-30,15,Zenit 3SL
+2098,X-Sat,Singapore,Centre for Research in Satellite Technology (CREST),Earth Observation,LEO,801,823,98.7,101.1,91,175,2011-04-20,3,PSLV C16
+2109,Yamal-202 ,Russia,Gazprom Space Systems,Communications,GEO,35774,35796,0.04,1436.06,1320,2000,2003-11-24,12,Proton K
+2193,Zhongxing 1C (ChinaSat 1C),China,China Satellite Communication Corp. (China Satcom),Communications,GEO,35778,35796,0.01,1436.12,5200,8000,2015-12-09,15,Long March 3B
+2198,Zhongxing 6B (ChinaSat 6B),China,China Satellite Communication Corp. (China Satcom),Communications,GEO,35777,35797,0.05,1436.1,4600,9500,2007-07-06,15,Long March 3B

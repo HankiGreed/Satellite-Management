@@ -20,10 +20,12 @@
       height: 100%;
     }
     .bgimg {
+      {% with 'images/'|add:satellite.Name|add:'.jpeg' as image_static %}
+      background-image: url("{% static image_static %}");
+      {%endwith%}
       min-height: 100%;
       background-position: center;
       background-size: cover;
-      background-image: url("{% static "images/dbg1.jpg"%}");
     }
   </style>
   <body>

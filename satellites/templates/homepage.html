@@ -133,7 +133,9 @@
           {% for satellite in satellites%}
           <div class="w3-third w3-container w3-margin-bottom">
               <a href = "description/{{satellite.Name}}">
-              <img src="{% static "images/hubble.jpg" %}" alt="hubble" style="width:100%" class="w3-hover-opacity" height="350px" /> 
+                {% with 'images/'|add:satellite.Name|add:'.jpeg' as image_static %}
+                <img src="{% static image_static %}" alt="hubble" style="width:100%" class="w3-hover-opacity" height="350px" /> 
+                {% endwith %}
               </a>
             <div class="w3-container w3-white">
                 <p><b>{{satellite.Name}}</b></p>

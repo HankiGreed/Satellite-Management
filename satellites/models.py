@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 class Satellite(models.Model):
@@ -26,14 +27,6 @@ class Organisation(models.Model):
     EmployeeCount = models.IntegerField(default=0)
 
 
-class Employee(models.Model):
-    Name = models.CharField(max_length=200)
-    Email = models.EmailField()
-    Phone = models.CharField(max_length=200)
-    Address = models.CharField(max_length=500)
-    AssociatedSat = models.CharField(max_length=500)
-
-
 class Images(models.Model):
     AbsolutePath = models.CharField(max_length=200)
     SatelliteName = models.CharField(max_length=500)
@@ -41,3 +34,13 @@ class Images(models.Model):
     Description = models.CharField(max_length=500)
     DescribedBy = models.CharField(max_length=500)
     AssociatedReasearch = models.CharField(max_length=200)
+
+
+class Profile(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    phone = models.CharField(max_length=10)
+    EmployeID = models.CharField(max_length=25)
+    AssociatedSat = models.OneToOneField(Satellite, on_delete=models.SET_NULL, null=True)
+    Address = models.CharField(max_length=150)
+    WorkExperience = models.CharField(max_length=100)
+    Education = models.CharField(max_length=100)

@@ -49,6 +49,18 @@
           >
             Send Suggestions
           </button>
+          {% if user.is_authenticated %}
+            {% if user.profile.AssociatedSat.Name == satellite.Name%}
+            <button
+                onclick="document.getElementById('contact').style.display='block'"
+                class="w3-button w3-black"
+            >
+            Edit this page !
+            </button>
+            {%endif%}
+            {{user.profile.AssociatedSat}}
+            <p>Welcome {{ user.username }} !!!</p>       
+          {% endif %}
         </p>
       </div>
       <div

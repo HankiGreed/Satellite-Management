@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>Registration Form</title>
+
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Main CSS-->
+    <link href="{% static "css/signup-main.css"%}" rel="stylesheet" media="all">
+    <link rel = "icon" href = "signup.png" type = "image/x-icon"> 
+
+</head>
+
+<body>
+    <div class="page-wrapper bg-dark p-t-100 p-b-50">
+        <div class="wrapper wrapper--w900">
+            <div class="card card-6">
+                <div class="card-heading">
+                    <h2 class="title">Employee Registration</h2>
+                </div>
+                <div class="card-body">
+                <ul class="messages">
+                    {% for message in messages %}
+                    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+
+                    <form method="POST" action="{% url 'signup'%}" enctype="multipart/form-data">
+                        {%csrf_token%}
+                        <div class="form-row">
+                            <div class="name">First Name</div>
+                            <div class="value">
+                                <input class="input--style-6" type="text" name="firstname" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Last Name</div>
+                            <div class="value">
+                                <input class="input--style-6" type="text" name="lastname" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Email address</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-6" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" placeholder="Enter a valid Email" title="Please Enter a valid mail ID" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Username</div>
+                            <div class="value">
+                                <input class="input--style-6" type="text" name="username" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Password</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-6" type="password" name="pswd" placeholder="Enter Password (atleast 6 characters)" title="Enter a strong Password" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Confirm Passord</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-6" type="password" name="cnfpswd" placeholder="Re-enter Password" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Mobile Number</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-6" type="text" name="phno" placeholder="This number will be used to send messages and notifications." required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Employee ID</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-6" type="text" name="eid" placeholder="ID provided by your Organisation" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Satellite Associated</div>
+                            
+                                <div class="input-group" >
+                                    <select class=" input--style-6 input-group" style="width: 100%; height: 100%; padding-top:5%; padding-bottom: 5%;" name = 'assat'>
+                                        <option disabled selected value>Select your Satellite</option>
+                                        {% for sat in sats %}
+                                        <option value="{{sat}}">{{sat}}</option>
+                                        {% endfor %}
+                                    </select>
+                            </div>
+                        </div>
+                       
+                        <div class="form-row">
+                            <div class="name">Education - 1</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-6" type="text" name="edu1" placeholder="Name of the Institution." >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Educational Description - 1</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <textarea class="textarea--style-6" name="edu1desc" placeholder="Enter Details about Education 1" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Education - 2</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-6" type="text" name="edu2" placeholder="Name of the Institution." >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Eduactional Description - 2 </div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <textarea class="textarea--style-6" name="edu2desc" placeholder="Enter Details about Education - 2 " required></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Education - 3</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-6" type="text" name="edu3" placeholder="Name of the Institution." >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Educational Description - 3</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <textarea class="textarea--style-6" name="edu3desc" placeholder="Enter Details about Education - 3" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Work Experience</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-6" type="text" name="work1" placeholder="Name of the Company" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Work Experience Description</div>
+                            <div class="value"> 
+                                <div class="input-group">
+                                    <textarea class="textarea--style-6" name="work1desc" placeholder="Enter Details about Education - 2 " required></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Residential or Current Address</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <textarea class="textarea--style-6" name="address" placeholder="Enter Full address" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Upload Photo</div>
+                            <div class="value">
+                                <div class="input-group js-input-file">
+                                    <input class="input-file" type="file" name="profile_pic" id="file">
+                                    <label class="label--file" for="file">Choose file</label>
+                                    <span class="input-file__info">No file chosen</span>
+                                </div>
+                                <div class="label--desc">Upload your photo to display in your profile.</div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <input class="btn btn--radius-2 btn--blue-2" type="submit" name="Submit"></input>
+                        </div>
+                    </form>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="{% static "js/vendor/jquery/jquery.min.js"%}"></script>
+
+    <!-- Main JS-->
+    <script src="{% static "js/global.js"%}"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->

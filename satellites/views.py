@@ -1,12 +1,11 @@
-from satellites.forms import ProfileForm, UserForm
 from satellites.models import Satellite, Profile
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from django.db import transaction
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_exempt
+from django.contrib.auth.models import User
 
 
 def homepageView(request):
@@ -36,36 +35,67 @@ def fullimageView(request, name):
     return render(request, "fullimage.html", {"satellite": sat})
 
 
+@login_required(login_url="login")
 def signupView(request):
-    if request.method == "POST":
-        user_form = UserForm(request.POST)
-        profile_form = ProfileForm(request.POST)
-        if user_form.is_valid():
-            user = user_form.save()
-            user.save()
+    sats = []
+    for sat in Satellite.objects.filter(  # pylint:disable=no-member
+        Organisation=request.user.profile.Organisation
+    ):
+        sats.append(sat.Name)
 
-            data = dict()
-            data["user"] = user
-            data["phone"] = profile_form["phone"].value()
-            data["EmployeID"] = profile_form["EmployeID"].value()
+    if request.method == "POST":
+        if request.user.profile.is_head:
+            user = dict()
+            user["first_name"] = request.POST.get("firstname")
+            user["last_name"] = request.POST.get("lastname")
+            user["email"] = request.POST.get("email")
+            user["password"] = request.POST.get("pswd")
+            user["username"] = request.POST.get("username")
+            print(user)
+            new_user = User(**user)
+            try:
+                new_user.save()
+            except:
+                messages.error(request, "Correct the errors in user form !")
+                return render(request, "signup2.html", {"sats": sats})
+            profile = dict()
             # pylint: disable=no-member
-            data["AssociatedSat"] = Satellite.objects.get(pk=profile_form["AssociatedSat"].value())
-            data["WorkExperience"] = profile_form["WorkExperience"].value()
-            data["Education"] = profile_form["Education"].value()
-            prof = Profile(**data)
-            prof.save()
-            user = authenticate(username=user.username, password=user_form.cleaned_data.get("password1"))
-            login(request, user)
+            profile["user"] = User.objects.get(pk=new_user.id)
+            profile["phone"] = request.POST.get("phno")
+            print(request.POST.get("assat"))
+            profile[
+                "AssociatedSat"
+            ] = Satellite.objects.get(  # pylint: disable=no-member
+                pk=request.POST.get("assat")
+            )
+            profile["EmployeID"] = request.POST.get("eid")
+            profile["Address"] = request.POST.get("address")
+            profile["Education1"] = request.POST.get("edu1")
+            profile["Education1_desc"] = request.POST.get("edu1desc")
+            profile["Education2"] = request.POST.get("edu2")
+            profile["Education2_desc"] = request.POST.get("edu2desc")
+            profile["Education3"] = request.POST.get("edu3")
+            profile["Education3_desc"] = request.POST.get("edu3desc")
+            profile["Organisation"] = request.user.profile.Organisation
+            profile["Profile_pic"] = request.FILES.get("profile_pic")
+            profile["WorkExperience"] = request.POST.get("work1")
+            profile["WorkExperienceDesc"] = request.POST.get("work1desc")
+            new_profile = Profile(**profile)
+
+            try:
+                new_profile.save()
+            except:
+                messages.error(request, "Correct the errors in profile form !")
+                return render(request, "signup2.html", {"sats": sats[:5]})
             return redirect("homepage")
         else:
-            messages.error(request, "Incorrect Credentials !")
-            user_form = UserForm()
-            profile_form = ProfileForm()
-            return render(request, "extend.html", {"user_form": user_form, "profile_form": profile_form})
+            return render(request, "unauth.html")
+
     else:
-        user_form = UserForm()
-        profile_form = ProfileForm()
-        return render(request, "extend.html", {"user_form": user_form, "profile_form": profile_form})
+        if request.user.profile.is_head:
+            return render(request, "signup2.html", {"sats": sats[:5]})
+        else:
+            return render(request, "unauth.html")
 
 
 @csrf_exempt
@@ -95,3 +125,9 @@ def logoutView(request):
 
 # @login_required
 # def editSatellites(request):
+
+
+@login_required(login_url="login")
+def generalProfileView(request):
+    if request.method == "GET":
+        return render(request, "userprofile.html")

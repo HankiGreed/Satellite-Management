@@ -273,3 +273,6 @@ EmployeeProfile/.sass-cache/e3f0abe5a50a2c3ad008c358edf35823ae2707ca/_text-overf
 EmployeeProfile/.sass-cache/e3f0abe5a50a2c3ad008c358edf35823ae2707ca/_vendor-prefixes.scssc
 satellites/migrations/0005_auto_20200324_0453.py
 satellites/migrations/__pycache__/0005_auto_20200324_0453.cpython-38.pyc
+
+satellites/migrations/0006_auto_20200331_0629.py
+satellites/migrations/__pycache__/0006_auto_20200331_0629.cpython-38.pyc

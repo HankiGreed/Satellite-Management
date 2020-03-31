@@ -11,9 +11,7 @@ class Organisation(models.Model):
 
 
 def returnSatelliteFile(instance, filename):
-    return "satellite_pic/Sat_{0}/{1}".format(
-        instance.user.profile.AssociatedSat.Name, filename
-    )
+    return "satellite_pic/Organisation_{0}/{1}".format(instance.Name, filename)
 
 
 class Satellite(models.Model):
@@ -21,7 +19,6 @@ class Satellite(models.Model):
     Organisation = models.ForeignKey(
         Organisation, on_delete=models.CASCADE, null=True
     )
-    OrganisationName = models.CharField(max_length=200)
     CountryOrigin = models.CharField(max_length=200)
     Purpose = models.CharField(max_length=200)
     ClassOfOrbit = models.CharField(max_length=200)
@@ -35,6 +32,7 @@ class Satellite(models.Model):
     LifeSpan = models.IntegerField()
     LaunchVehicle = models.CharField(max_length=200)
     Description = models.CharField(max_length=300, null=True)
+    Picture = models.ImageField(upload_to=returnSatelliteFile, null=True)
 
 
 def returnUsersName(instance, filename):

@@ -6,6 +6,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth.models import User
+from datetime import datetime
 
 
 def homepageView(request):
@@ -115,7 +116,7 @@ def loginView(request):
         return render(request, "login.html")
 
 
-@login_required
+@login_required(login_url="login")
 def logoutView(request):
     if request.method == "GET":
         logout(request)
@@ -123,11 +124,51 @@ def logoutView(request):
         return redirect("homepage")
 
 
-# @login_required
-# def editSatellites(request):
-
-
 @login_required(login_url="login")
 def generalProfileView(request):
     if request.method == "GET":
         return render(request, "userprofile.html")
+
+
+@login_required(login_url="login")
+def editSatellites(request):
+    if request.method == "GET":
+        if request.user.profile.is_head:
+            return render(request, "sat-index.html")
+        else:
+            return render(request, "unauth.html")
+    elif request.method == "POST":
+        if request.user.profile.is_head:
+            satellite = dict()
+            satellite["Name"] = request.POST.get("satellitename")
+            satellite["Organisation"] = request.user.profile.Organisation
+            satellite["CountryOrigin"] = request.POST.get("country")
+            satellite["Purpose"] = request.POST.get("purpose")
+            satellite["ClassOfOrbit"] = request.POST.get("orbitclass")
+            satellite["Apogee"] = request.POST.get("apogee")
+            satellite["Perigee"] = request.POST.get("perigee")
+            satellite["Inclination"] = request.POST.get("inclination")
+            satellite["TimePeriod"] = request.POST.get("timeperiod")
+            satellite["Power"] = request.POST.get("power")
+            satellite["Mass"] = request.POST.get("mass")
+            satellite["Picture"] = request.FILES.get("satimage")
+            satellite["Description"] = request.POST.get("description")
+            satellite["LaunchVehicle"] = request.POST.get("launchvehicle")
+            satellite["LifeSpan"] = request.POST.get("lifespan")
+            datestr = request.POST.get("launchdate")
+
+            satellite["DateOfLaunch"] = datetime.strptime(datestr, "%d/%m/%Y")
+            print(satellite)
+            new_sat = Satellite(**satellite)
+            try:
+                new_sat.save()
+                messages.success(request, "Satellite Successfully Saved !")
+                return render(request, "sat-index.html")
+
+            except Exception as e:
+                print(e)
+                messages.error(request, "Please Correct the error !")
+                return render(request, "sat-index.html")
+
+        else:
+            return render(request, "unauth.html")

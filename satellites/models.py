@@ -60,3 +60,13 @@ class Profile(models.Model):
     Education3_desc = models.CharField(max_length=250, null=True)
     is_head = models.BooleanField(default=False)
     Profile_pic = models.ImageField(upload_to=returnUsersName, null=True)
+
+
+class Suggestion(models.Model):
+    Name = models.CharField(max_length=50)
+    Email = models.EmailField()
+    Sugestion = models.CharField(max_length=250)
+    Organisation = models.ForeignKey(
+        Organisation, on_delete=models.CASCADE, null=True
+    )
+    Read = models.BooleanField(default=False)

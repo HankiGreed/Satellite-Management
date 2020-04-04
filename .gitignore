@@ -276,3 +276,7 @@ satellites/migrations/__pycache__/0005_auto_20200324_0453.cpython-38.pyc
 
 satellites/migrations/0006_auto_20200331_0629.py
 satellites/migrations/__pycache__/0006_auto_20200331_0629.cpython-38.pyc
+satellites/migrations/0007_suggestion.py
+satellites/migrations/0008_suggestion_organisation.py
+satellites/migrations/__pycache__/0007_suggestion.cpython-38.pyc
+satellites/migrations/__pycache__/0008_suggestion_organisation.cpython-38.pyc

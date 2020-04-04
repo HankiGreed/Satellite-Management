@@ -20,9 +20,7 @@
       height: 100%;
     }
     .bgimg {
-      {% with 'images/'|add:satellite.Name|add:'.jpeg' as image_static %}
-      background-image: url("{% static image_static %}");
-      {%endwith%}
+        background-image: url("{{satellite.Picture.url}}");
       min-height: 100%;
       background-position: center;
       background-size: cover;
@@ -43,12 +41,10 @@
           </button>
         </p>
         <p>
-          <button
-            onclick="document.getElementById('contact').style.display='block'"
-            class="w3-button w3-black"
-          >
-            Send Suggestions
-          </button>
+        </p>
+      </div>
+      <div class="w3-display-bottomleft w3-container w3-xlarge">
+          <p>
           {% if user.is_authenticated %}
             {% if user.profile.AssociatedSat.Name == satellite.Name%}
             <button
@@ -57,18 +53,19 @@
             >
             Edit this page !
             </button>
+                {% else %}
+                          <button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black" >
+            Send Suggestions
+          </button>
+
             {%endif%}
-            {{user.profile.AssociatedSat}}
-            <p>Welcome {{ user.username }} !!!</p>       
-          {% endif %}
-        </p>
-      </div>
-      <div
-        class="w3-display-bottomleft w3-container"
-        style="background-color: black;"
-      >
-        <p class="w3-xlarge">monday - friday 10-23</p>
-        <p class="w3-large">42 village St, New York</p>
+          {% else %}
+
+          <button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black" >
+            Send Suggestions
+          </button>
+              {%endif%}
+          </p>
       </div>
     </div>
 
@@ -127,14 +124,15 @@
             If you find any information to be incorrect or for suggestions
             please contact us:
           </p>
-          <form action="/action_page.php" target="_blank">
+          <form action="{% url "suggest" %}" method="POST">
+              {%csrf_token%}
             <p>
               <input
                 class="w3-input w3-padding-16 w3-border"
                 type="text"
                 placeholder="Name"
                 required
-                name="Name"
+                name="name"
               />
             </p>
             <p>
@@ -143,16 +141,19 @@
                 type="text"
                 placeholder="Email ID"
                 required
-                name="People"
+                name="email"
               />
             </p>
             <p>
               <input
-                class="w3-input w3-padding-16 w3-border"
-                type="text"
-                placeholder="Category(s)"
-                required
-                name="date"
+                type="hidden"
+                name="current"
+                value="{% url "full" name=satellite.Name%}"
+              />
+              <input
+                  type="hidden"
+                  name="organisation"
+                  value="{{satelllite.Organisation.id}}"
               />
             </p>
             <p>
@@ -161,7 +162,7 @@
                 type="text"
                 placeholder="Detailed Message"
                 required
-                name="Message"
+                name="suggestion"
               />
             </p>
             <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>

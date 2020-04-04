@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Admin</title>
+        {% load static %}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://kit.fontawesome.com/7b183cdb79.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+        <link rel="icon" href="{% static "images/adminicon.png"%}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{% static "css/admin-style.css"%}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Styling-->
+        <style>
+              .mycard
+              {
+                background-color: rgb(230, 250, 255);
+                width: fit-content;
+                padding: 2.5%;
+                margin: 1%;
+                margin-bottom: 3%;
+                float: left;
+                color: black;
+                
+              }
+
+              .aboutadmin
+              {
+                margin: 1%;
+                color: black;
+                position: relative;
+                float: left;
+                text-align: justify;
+              }
+              .adminheader
+              {
+                text-align: center;
+                position: relative;
+              }
+              .adminname
+              {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                font-size: 150%;
+                text-align: center;
+                margin-left: 0.5rem;
+              }
+              .notification 
+              {
+                  color: white;
+                  text-decoration: none;
+                  padding: 15px 26px;
+                  position: relative;
+                  display: inline-block;
+                  border-radius: 2px;
+              }
+
+              .notification .badge 
+              {
+                  position: absolute;
+                  top: -2px;
+                  right: -5px;
+                  padding: 5px 10px;
+                  border-radius: 50%;
+                  background-color: rgb(219, 31, 56);
+                  color: white;
+              }
+
+              .employeetable
+              {
+                margin-left: 1%;
+                float: left;
+                width: 150%;
+                position: relative;
+                
+              }
+              .tabledetails
+              {
+                font-size: larger;
+                border-collapse: collapse;
+                margin: 1%;
+                color: black;
+                position: relative;
+                
+              }
+              th,td
+              {
+                  text-align: center;
+                  padding: 1%;
+                  border: 1.5px solid rgb(230, 250, 255);
+              }
+              th
+              {
+                  font-size: larger;
+                  color: black;
+                  background-color: rgb(230, 250, 255);
+              }
+              .tabledetails tr:nth-child(even)
+              {
+                  background-color: rgb(223, 223, 223);
+              }
+              .tabledetails tr:hover
+              {
+                  background-color: rgb(251, 255, 146);
+              }
+              .gototop
+              {
+                  position: relative;
+                  text-align: center;
+              }
+                          
+        </style>
+
+    </head>
+    <body>
+        <div class="wrapper d-flex align-items-stretch">
+          <nav id="sidebar">
+            <div class="p-4 pt-5">
+                <figcaption>
+                      <a href="#" class="img logo rounded-circle mb-5" style="background-image: url({{user.profile.Profile_pic.url}});"></a>
+                          <div style="margin-left: 15%; ">
+                              <i class="fas fa-user-shield"><span class="adminname">{{user.get_full_name}}</span></i>
+                              <p style="color: white;margin-bottom: 5%;">{{user.profile.Organisation.Name}}</p>
+                          </div>        
+                </figcaption>
+                <ul class="list-unstyled components mb-5">
+                    <li>
+                      <a href="#id_dashboard">Dashboard</a>
+                    </li>
+                    
+                    <li class="active">
+                          <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Employee Management</a>
+                          <ul class="collapse list-unstyled" id="homeSubmenu">
+                                <li>
+                                    <a href="{%url "signup" %}" style="margin-left: 7%;">Add new Employee</a>
+                                </li>
+                                <li>
+                                    <a href="#list_employee" style="margin-left: 7%;">View Employee list </a>
+                                </li>
+                                <li>
+                                    <a href="#edit_employee" style="margin-left: 7%;">Update Employees Info</a>
+                                </li>
+                          </ul>
+                    </li>
+                  
+                    <li>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Satellite Management</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                              <li>
+                                  <a href="{% url "editsat" %}" style="margin-left: 7%;">Add new Satellite</a>
+                              </li>
+                              <li>
+                                  <a href="#list_satellite" style="margin-left: 7%;">View Satellites list</a>
+                              </li>
+                              <li>
+                                  <a href="#" style="margin-left: 7%;">Update Satellite table</a>
+                              </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                      <a href="#messageemployee">Message Employee</a>
+                    </li>
+
+                    <li>
+                      <a href="#">Logout and go to Homepage</a>
+                    </li>
+                    
+              </ul>
+
+            
+
+            </div>
+          </nav>
+
+            <!-- Page Content  -->
+          <div id="content" class="p-4 p-md-5">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <div class="container-fluid">
+                      <button type="button" id="sidebarCollapse" class="btn btn-primary">
+                          <i class="fa fa-bars"></i>
+                          <span class="sr-only">Toggle Menu</span>
+                      </button>
+                      <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <i class="fa fa-bars"></i>
+                      </button>
+
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="nav navbar-nav ml-auto">
+                                <li class="nav-item active" style="margin-top: 2%;">
+                                    <a class="nav-link" href="{% url "homepage" %}">Homepage</a> 
+                                </li>
+                               
+                                <li class="nav-item">
+                                  <a class="nav-link notification" href="#notificationslist">
+                                      <span>Notifications</span>
+                                      <span class="badge">{{notify}}</span>
+                                  </a>
+                                    
+                                </li>
+                                <li class="nav-item" style="margin-top: 2%;">
+                                    <a class="nav-link" href="{% url "logout"%}">Logout</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </nav>
+            <div class="adminheader">
+                <h1>Welcome! {{user.get_full_name}}</h1>
+            </div>
+            <div class="dashboardcard" id="id_dashboard">
+                    <div class="mycard">                      
+                      <i class="fas fa-satellite fa-3x"></i><h2>Satellite Count</h2>
+                      <p>Current count: {{satcount}}</p>
+                    </div>
+
+                    <div class="mycard">                      
+                      <i class="fas fa-users fa-3x"></i><h2>Employee Count</h2>
+                      <p>Current count: {{empcount}}</p>
+                    </div>
+
+                    <div class="mycard">                      
+                      <i class="fas fa-edit fa-3x"></i><h2>Edit Requests</h2>
+                      <p>Pending requests: 25</p>
+                    </div>
+            </div>
+
+            <div class="aboutadmin" >
+              <h2 style="margin: 1%;">
+                Admin Privileges
+              </h2>
+              <p class="aboutadmin" style="font-size: 110%;">
+                An Organisational admin has the permission and accessibility to add, update and view the Employees and Satellites related to the particular Organisation.The Changes made heree will be reflected permanently in the Organisation Database.
+                <span style="color: red;"> Changes made are not reversible hence, please confirm before making any major changes.</span>
+              </p>
+            </div>
+
+            <div class="employeetable" id="list_employee">
+                <h2 style="margin-left: 1%;margin-top: 2.5%;text-align: center ;">
+                  Employee list
+                </h2>
+                <p style="text-align: center;font-size: larger;">This is the list of Employees currently working in the <span style="color: blue;">{{user.profile.Organisation.Name}}</span></p>
+                <table class="tabledetails">
+                    <tr style="padding: 2%; margin: 3%;">
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th id="messageemployee">Email</th>
+                        <th>Contact Info</th>
+                        <th>Assigned Satellite</th>
+                        <th>Work Experience</th>
+                        <th>Education</th>
+                        <th id="edit_employee">Edit Details</th>
+                    </tr>
+                    {%for user in users%}
+                    <tr style="padding: 2%; margin: 3%;">
+                        <td>{{user.user.get_full_name}}</td>
+                        <td>{{user.EmployeID}}</td>
+                        <td><a href="mailto:{{user.user.email}}?Subject:Test%20Mail">{{user.user.email}}</a></td>
+                        <td>{{user.phone}}</td>
+                        <td>{{user.AssociatedSat}}</td>
+                        <td>{{user.WorkExperience}}</td>
+                        <td>{{user.Education3}}</td>
+                      <td><a href="https://www.google.com">Edit</a></td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+
+            <div class="employeetable" id="list_satellite">
+              <h2 style="margin-left: 1%;margin-top: 2.5%;text-align: center ;">
+                Satellites' List
+              </h2>
+              <p style="text-align: center;font-size: larger;">This is the list of Satellites launched by <span style="color: blue;">{{user.profile.Organisation.Name}}</span> This list only shows selected imporatant details.</p>
+              <p style="text-align: center;font-size: larger;">View full Details <span><a href="file:///E:/6th%20Sem/DBMS/Project/Project/fullimage.html">here</a></span></p>
+              <table class="tabledetails">
+                  <tr style="padding: 2%; margin: 3%;">
+                      <th>Satellite Name</th>
+                      <th>Country</th>
+                      <th>Purpose</th>
+                      <th>Launch Date</th>
+                      <th>Power</th>
+                      <th>Description</th>
+                      <th>Edit Details</th>
+                  </tr>
+
+                  {% for sat in sats%}
+                  <tr style="padding: 2%; margin: 3%;">
+                      <td>{{sat.Name}}</td>
+                      <td>{{sat.CountryOrigin}}</td>
+                      <td>{{sat.Purpose}}</td>
+                      <td>{{sat.DateOfLaunch}}</td>
+                      <td>{{sat.Power}}</td>
+                      <td>{{sat.Description}}</td>
+                    <td><a href="https://www.google.com">Edit</a></td>
+                  </tr>
+                  {%endfor%}
+
+              </table>
+          </div>
+          <div class="employeetable" id="notificationslist">
+            <div >
+              <h2 style="margin-left: 25%;">Notifications</h2>
+            </div>
+            <p style="margin-left: 8%;">This list includes all the messages sent as a suggestion or a query to the admin by a normal user.</p>
+            <p style="margin-left: 20%;">This list is specific to the satellite of <span style="color: blue;">{{user.profile.Organisation.Name}}</span></p>
+            <table class="tabledetails">
+              <tr style="padding: 2%; margin: 3%;">
+                  <th>User Name</th>
+                  <th>Email</th>
+                  <th>Message</th>
+                  <th>Read Status</th>
+                  
+              </tr>
+
+              {% for suggest in suggests %}
+              <tr style="padding: 2%; margin: 3%;">
+                  <td>{{suggest.Name}}</td>
+                  <td><a href="mailto:{{suggest.Email}}">{{suggest.Email}}</a></td>
+                  <td>{{suggest.Sugestion}}</td>
+                <td>Mark as read</td>
+              {% endfor %}
+               
+              </tr>
+
+          </table>
+
+        </div>
+        <div class="gototop" style="float: left;">              
+            <a href="#navbarSupportedContent" style="text-align:center;font-size: x-large;">Go to top</a>
+        </div>
+
+
+          </div>
+        </div>
+       
+      
+        <script src="{% static "js/jquery.min.js"%}"></script>
+        <script src="{% static "js/popper.js"%}"></script>
+        <script src="{% static "js/bootstrap.min.js"%}"></script>
+        <script src="{% static "js/admin-main.js"%}"></script>
+    </body>
+</html>

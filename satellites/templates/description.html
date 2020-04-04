@@ -19,9 +19,7 @@
     .bgimg {
       background-position: center;
       background-size: cover;
-      {% with 'images/'|add:satellite.Name|add:'.jpeg' as image_static %}
-      background-image: url("{% static image_static %}");
-      {% endwith %}
+      background-image: url("{{satellite.Picture.url}}");
       min-height: 75%;
     }
     .menu {
@@ -33,25 +31,20 @@
     <!-- Links (sit on top) -->
     <div class="w3-top">
       <div class="w3-row w3-padding w3-black">
-        <div class="w3-col s3">
+        <div class="w3-col s4">
           <a href="{% url 'homepage'%}" class="w3-button w3-block w3-black"
             >HOME</a
           >
         </div>
-        <div class="w3-col s3">
+        <div class="w3-col s4">
           <a
               href="{% url "full" name=satellite.Name%}"
             class="w3-button w3-block w3-black"
-            target="_blank"
             rel="noopener noreferrer"
             >FULL SPECS</a
           >
         </div>
-        <div class="w3-col s3">
-          <a href="" class="w3-button w3-block w3-black">SEARCH</a>
-        </div>
-
-        <div class="w3-col s3">
+        <div class="w3-col s4">
             <a href="{% url 'logout' %}" class="w3-button w3-block w3-black">LOGOUT</a>
         </div>
       </div>
@@ -60,13 +53,13 @@
     <!-- Header with image -->
     <header class="bgimg w3-display-container w3-grayscale-min" id="home">
       <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-        <span class="w3-tag">Launched on</span>
+          <span class="w3-tag">Launched on : {{satellite.DateOfLaunch}}</span>
       </div>
       <div class="w3-display-middle w3-center">
         <span class="w3-text-white" style="font-size:90px">{{satellite.Name}}</span>
       </div>
-      <div class="w3-display-bottomright w3-center w3-padding-large">
-        <span class="w3-text-white">Last Communicated on</span>
+      <div class="w3-display-bottomright w3-padding-large w3-hide-small">
+          <span class="w3-tag"> Launch Vehicle : {{satellite.LaunchVehicle}} </span>
       </div>
     </header>
 
@@ -78,20 +71,10 @@
           <h5 class="w3-center w3-padding-64">
             <span class="w3-tag w3-wide">ABOUT THE SATELLITE</span>
           </h5>
-          <p>
-            This was the first ever satellite to be in continuos orbit all over
-            the space. It's special sensors allow it to change its course of
-            direction to the occurance of a major event in the space.
-          </p>
-          <p>
-            Till date it is the satellite to hold the record for most number of
-            images taken and used in the researchs by scientists
-          </p>
           <div class="w3-panel w3-leftbar w3-light-grey">
-            <p>
-              <i>The Hubble was the first telescope to discover a supernova</i>
-            </p>
-            <p>Supernova is a point at which a star dies.</p>
+          <p>
+              {{satellite.Description}}
+          </p>
           </div>
         </div>
       </div>
@@ -102,14 +85,15 @@
           <h5 class="w3-center w3-padding-48">
             <span class="w3-tag w3-wide">HELP US IMPROVE</span>
           </h5>
-          <form action="/action_page.php" target="_blank">
+          <form action="{% url "suggest"%}" method="POST">
+              {%csrf_token%}
             <p>
               <input
                 class="w3-input w3-padding-16 w3-border"
                 type="text"
                 placeholder="Name"
                 required
-                name="Name"
+                name="name"
               />
             </p>
             <p>
@@ -118,7 +102,7 @@
                 type="text"
                 placeholder="Email ID"
                 required
-                name="People"
+                name="email"
               />
             </p>
             <p>
@@ -127,8 +111,17 @@
                 type="text"
                 placeholder="Message\Suggestions"
                 required
-                name="Message"
+                name="suggestion"
               />
+              <input
+                type="hidden"
+                name="current"
+                value = "description/{{satellite.Name}}"
+              />
+              <input
+                  type="hidden"
+                  name="organisation"
+                  value="{{satellite.Organisation.id}}"
             </p>
             <p>
               <button class="w3-button w3-black" type="submit">

@@ -70,6 +70,13 @@
         >
           <i class="fa fa-user fa-fw w3-margin-right"></i>Hey {{ user.username }} !!!
         </a><!-- prettier-ignore -->
+        <a
+            href="description/{{user.profile.AssociatedSat.Name}}"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          ><i class="fa fa-envelope fa-fw w3-margin-right"></i>Go To Assigned Satellite</a
+        >
+
         {% else %}
                 <a
           href="{% url "login"%}"
@@ -82,12 +89,6 @@
         {% endif %}
 
 
-        <a
-          href="#contact"
-          onclick="w3_close()"
-          class="w3-bar-item w3-button w3-padding"
-          ><i class="fa fa-envelope fa-fw w3-margin-right"></i>Search</a
-        >
         <a
           href="#search"
           onclick="w3_close()"
@@ -126,14 +127,9 @@
           <div class="w3-section w3-bottombar w3-padding-16">
             <span class="w3-margin-right">Filter:</span>
             <button class="w3-button w3-black">Dashboard</button>
+            <a href= "{% url "logout"%}">
             <button class="w3-button w3-white">
-              <i class="fa fa-diamond w3-margin-right"></i>Oribiting now
-            </button>
-            <button class="w3-button w3-white w3-hide-small">
-              <i class="fa fa-photo w3-margin-right"></i>Benchmark Images
-            </button>
-            <button class="w3-button w3-white w3-hide-small">
-              <i class="fa fa-map-pin w3-margin-right"></i>Research Papers
+              <i class="fa fa-user w3-margin-right"></i>Logout
             </button>
           </div>
         </div>
@@ -144,9 +140,7 @@
           {% for satellite in satellites%}
           <div class="w3-third w3-container w3-margin-bottom">
               <a href = "description/{{satellite.Name}}">
-                {% with 'images/'|add:satellite.Name|add:'.jpeg' as image_static %}
-                <img src="{% static image_static %}" alt="hubble" style="width:100%" class="w3-hover-opacity" height="350px" /> 
-                {% endwith %}
+                  <img src="{{ satellite.Picture.url}}" alt="hubble" style="width:100%" class="w3-hover-opacity" height="350px" /> 
               </a>
             <div class="w3-container w3-white">
                 <p><b>{{satellite.Name}}</b></p>
@@ -182,70 +176,8 @@
     </div>
       
 
-    <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-        <h4>Find by categories</h4>
+    <div class="w3-container w3-padding-large" style="margin-left:300px">
         <!-- Pricing Tables -->
-        <div class="w3-row-padding" style="margin:0 -16px">
-          <div class="w3-third w3-margin-bottom">
-            <ul
-              class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off"
-            >
-              <li class="w3-black w3-xlarge w3-padding-32">Find Satellites</li>
-              <li class="w3-padding-16">Satellite names</li>
-              <li class="w3-padding-16">Scientific Details</li>
-              <li class="w3-padding-16">Country and Organisation</li>
-              <li class="w3-padding-16">Area of Use</li>
-
-              <li class="w3-light-grey w3-padding-24">
-                <button
-                  class="w3-button w3-teal w3-padding-large w3-hover-black"
-                >
-                  Find
-                </button>
-              </li>
-            </ul>
-          </div>
-
-          <div class="w3-third w3-margin-bottom">
-            <ul
-              class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off"
-            >
-              <li class="w3-teal w3-xlarge w3-padding-32">Find Images</li>
-              <li class="w3-padding-16">Research Images</li>
-              <li class="w3-padding-16">Source of Image</li>
-              <li class="w3-padding-16">Captured by</li>
-              <li class="w3-padding-16">Scientists Associated</li>
-
-              <li class="w3-light-grey w3-padding-24">
-                <button
-                  class="w3-button w3-teal w3-padding-large w3-hover-black"
-                >
-                  Find
-                </button>
-              </li>
-            </ul>
-          </div>
-
-          <div class="w3-third">
-            <ul
-              class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off"
-            >
-              <li class="w3-black w3-xlarge w3-padding-32">Find Articles</li>
-              <li class="w3-padding-16">Research Journals</li>
-              <li class="w3-padding-16">Major Breakthroughs</li>
-              <li class="w3-padding-16">Advanced Science</li>
-              <li class="w3-padding-16">Scientists Associated</li>
-
-              <li class="w3-light-grey w3-padding-24">
-                <button
-                  class="w3-button w3-teal w3-padding-large w3-hover-black"
-                >
-                  Find
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
         <h4><b>About the Website</b></h4>
         <p>
           This website is an informative cluster of the machines that are
@@ -257,7 +189,7 @@
       </div>
 
       <!-- Contact Section -->
-      <div class="w3-container w3-padding-large w3-grey">
+      <div class="w3-container w3-padding-large w3-grey" style="margin-left:300px">
         <h4 id="contact"><b>Contact Us</b></h4>
         <div
           class="w3-row-padding w3-center w3-padding-24"
@@ -279,42 +211,10 @@
           </div>
         </div>
         <hr class="w3-opacity" />
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-section">
-            <label>Name</label>
-            <input
-              class="w3-input w3-border"
-              type="text"
-              name="Name"
-              required
-            />
-          </div>
-          <div class="w3-section">
-            <label>Email</label>
-            <input
-              class="w3-input w3-border"
-              type="text"
-              name="Email"
-              required
-            />
-          </div>
-          <div class="w3-section">
-            <label>Message</label>
-            <input
-              class="w3-input w3-border"
-              type="text"
-              name="Message"
-              required
-            />
-          </div>
-          <button type="submit" class="w3-button w3-black w3-margin-bottom">
-            <i class="fa fa-paper-plane w3-margin-right"></i>Send Message
-          </button>
-        </form>
       </div>
 
       <!-- Footer -->
-      <footer class="w3-container w3-padding-32 w3-dark-grey">
+      <footer class="w3-container w3-padding-32 w3-dark-grey" style="margin-left:300px" >
         <div class="w3-row-padding">
           <div class="w3-third">
             <h3>Contributions</h3>
@@ -327,12 +227,24 @@
         </div>
       </footer>
 
-      <div class="w3-black w3-center w3-padding-24">
+      <div class="w3-black w3-center w3-padding-24" style="margin-left:300px" >
         <h3>Developers</h3>
         <p>Kiran Ravi Hegde and K Vadhiraja, Dept. of ISE, RVCE Bengaluru</p>
       </div>
-
+      <div class="w3-black w3-center w3-padding-24 w3-xlarge" style="margin-left:300px">
+        <h3>Follow us on Social Media</h3>
+        <a href="https://www.instagram.com/vadhi_k7/" target="_blank"><img src="{% static "images/instagram.png"%}" width="9%" height="9%"></a>
+        <a href="https://github.com/HankiGreed" target="_blank"><img src="{% static "images/github.png"%}" width="6%" height="6%"></a>
+        <a href="https://twitter.com/Vadhiraja3" target="_blank"><img src="{% static "images/twitter.png"%}" width="6%" height="6%" style="margin-left: 2%;"></a>
+        <a href="https://www.linkedin.com/in/kiranravihegde/" target="_blank"><img src="{% static "images/linkedin.png"%}" width="6%" height="6%" style="margin-left: 1%;"></a>
+    
+        <!--<a href="https://www.instagram.com/hanki_greed/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>-->    
+      </div>
       <!-- End page content -->
+    </div>
     </div>
 
     <script>

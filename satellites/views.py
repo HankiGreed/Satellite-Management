@@ -1,5 +1,6 @@
-from satellites.models import Satellite, Profile
+from satellites.models import Organisation, Satellite, Profile, Suggestion
 from django.shortcuts import render, redirect
+from django.http import HttpResponseRedirect
 from django.contrib import messages
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.contrib.auth import authenticate, login, logout
@@ -170,5 +171,56 @@ def editSatellites(request):
                 messages.error(request, "Please Correct the error !")
                 return render(request, "sat-index.html")
 
+        else:
+            return render(request, "unauth.html")
+
+
+def suggestionForm(request):
+    if request.method == "POST":
+        sug = dict()
+        sug["Name"] = request.POST.get("name")
+        sug["Email"] = request.POST.get("email")
+        sug["Sugestion"] = request.POST.get("suggestion")
+        sug["Organisation"] = Organisation.objects.get(
+            pk=request.POST.get("organisation")
+        )
+        current = request.POST.get("current")
+        sugi = Suggestion(**sug)
+        sugi.save()
+        messages.success(request, "Thanks for the feedback")
+        return HttpResponseRedirect(current)
+
+
+@login_required(login_url="login")
+def adminProfilePage(request):
+    if request.method == "GET":
+        if request.user.profile.is_head:
+            sugest = Suggestion.objects.filter(
+                Organisation__id=request.user.profile.Organisation.id,
+                Read=False,
+            )
+
+            sugestAll = Suggestion.objects.filter(
+                Organisation__id=request.user.profile.Organisation.id
+            ).order_by("Read")
+            len(sugest)
+            sats = Satellite.objects.filter(
+                Organisation__id=request.user.profile.Organisation.id
+            )
+            users = Profile.objects.filter(
+                Organisation__id=request.user.profile.Organisation.id
+            )
+            return render(
+                request,
+                "admin-prof.html",
+                {
+                    "notify": len(sugest),
+                    "suggests": sugestAll,
+                    "sats": sats,
+                    "users": users,
+                    "satcount": len(sats),
+                    "empcount": len(users),
+                },
+            )
         else:
             return render(request, "unauth.html")

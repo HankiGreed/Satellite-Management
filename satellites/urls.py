@@ -2,6 +2,7 @@ from os import name
 from django.contrib import admin
 from django.urls import path, include
 from .views import (
+    adminProfilePage,
     editSatellites,
     generalProfileView,
     homepageView,
@@ -10,6 +11,7 @@ from .views import (
     loginView,
     logoutView,
     signupView,
+    suggestionForm,
 )
 
 urlpatterns = [
@@ -21,4 +23,6 @@ urlpatterns = [
     path("logout", logoutView, name="logout"),
     path("profile", generalProfileView, name="userprofile"),
     path("editsat", editSatellites, name="editsat"),
+    path("suggest", suggestionForm, name="suggest"),
+    path("adminprof", adminProfilePage, name="adminprofile"),
 ]

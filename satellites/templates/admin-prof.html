@@ -163,7 +163,7 @@
                     </li>
 
                     <li>
-                      <a href="#">Logout and go to Homepage</a>
+                        <a href="{% url "logout"%}">Logout and go to Homepage</a>
                     </li>
                     
               </ul>
@@ -260,7 +260,7 @@
                         <td>{{user.AssociatedSat}}</td>
                         <td>{{user.WorkExperience}}</td>
                         <td>{{user.Education3}}</td>
-                      <td><a href="https://www.google.com">Edit</a></td>
+                        <td><a href="{% url "edituser" id=user.user.id %}">Edit</a></td>
                     </tr>
                     {% endfor %}
                 </table>
@@ -271,7 +271,7 @@
                 Satellites' List
               </h2>
               <p style="text-align: center;font-size: larger;">This is the list of Satellites launched by <span style="color: blue;">{{user.profile.Organisation.Name}}</span> This list only shows selected imporatant details.</p>
-              <p style="text-align: center;font-size: larger;">View full Details <span><a href="file:///E:/6th%20Sem/DBMS/Project/Project/fullimage.html">here</a></span></p>
+              <p style="text-align: center;font-size: larger;">View full Details <span><a href="">here</a></span></p>
               <table class="tabledetails">
                   <tr style="padding: 2%; margin: 3%;">
                       <th>Satellite Name</th>
@@ -291,7 +291,7 @@
                       <td>{{sat.DateOfLaunch}}</td>
                       <td>{{sat.Power}}</td>
                       <td>{{sat.Description}}</td>
-                    <td><a href="https://www.google.com">Edit</a></td>
+                      <td><a href="{% url "full" name=sat.Name%}">Edit</a></td>
                   </tr>
                   {%endfor%}
 
@@ -312,17 +312,19 @@
                   
               </tr>
 
+              <form action="" method="POST">
+                {% csrf_token %}
               {% for suggest in suggests %}
               <tr style="padding: 2%; margin: 3%;">
                   <td>{{suggest.Name}}</td>
                   <td><a href="mailto:{{suggest.Email}}">{{suggest.Email}}</a></td>
                   <td>{{suggest.Sugestion}}</td>
-                <td>Mark as read</td>
+                  <td><input type="checkbox" name ="tag" {% if suggest.Read %} checked {% endif %} value = {{suggest.id}}></td>
               {% endfor %}
-               
               </tr>
-
           </table>
+              <input type="submit" value="Save" class="btn btn-primary" style="margin-left:630px"> 
+              </form>
 
         </div>
         <div class="gototop" style="float: left;">              

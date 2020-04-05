@@ -4,6 +4,7 @@ from django.urls import path, include
 from .views import (
     adminProfilePage,
     editSatellites,
+    editUserView,
     generalProfileView,
     homepageView,
     descriptionView,
@@ -25,4 +26,5 @@ urlpatterns = [
     path("editsat", editSatellites, name="editsat"),
     path("suggest", suggestionForm, name="suggest"),
     path("adminprof", adminProfilePage, name="adminprofile"),
+    path("edituser/<int:id>", editUserView, name="edituser"),
 ]

@@ -33,8 +33,28 @@ def descriptionView(request, name):
 
 
 def fullimageView(request, name):
-    sat = Satellite.objects.get(pk=name)  # pylint: disable=no-member
-    return render(request, "fullimage.html", {"satellite": sat})
+    if request.method == "GET":
+        sat = Satellite.objects.get(pk=name)  # pylint: disable=no-member
+        return render(request, "fullimage.html", {"satellite": sat})
+    elif request.method == "POST":
+        sat = Satellite.objects.get(pk=name)  # pylint: disable=no-member
+        sat.CountryOrigin = request.POST.get("country")
+        sat.Purpose = request.POST.get("purpose")
+        sat.ClassOfOrbit = request.POST.get("orbitclass")
+        sat.Apogee = request.POST.get("apogee")
+        sat.Perigee = request.POST.get("perigee")
+        sat.Inclination = request.POST.get("inclination")
+        sat.TimePeriod = request.POST.get("timeperiod")
+        sat.Power = request.POST.get("power")
+        sat.Mass = request.POST.get("mass")
+        sat.Picture = request.FILES.get("satimage")
+        sat.Description = request.POST.get("description")
+        sat.LaunchVehicle = request.POST.get("launchvehicle")
+        sat.LifeSpan = request.POST.get("lifespan")
+        sat.DateOfLaunch = request.POST.get("launchdate")
+        sat.save()
+        messages.success(request, "Satellite Successfully Saved !")
+        return render(request, "fullimage.html", {"satellite": sat})
 
 
 @login_required(login_url="login")
@@ -65,9 +85,7 @@ def signupView(request):
             profile["user"] = User.objects.get(pk=new_user.id)
             profile["phone"] = request.POST.get("phno")
             print(request.POST.get("assat"))
-            profile[
-                "AssociatedSat"
-            ] = Satellite.objects.get(  # pylint: disable=no-member
+            profile["AssociatedSat"] = Satellite.objects.get(  # pylint: disable=no-member
                 pk=request.POST.get("assat")
             )
             profile["EmployeID"] = request.POST.get("eid")
@@ -181,7 +199,7 @@ def suggestionForm(request):
         sug["Name"] = request.POST.get("name")
         sug["Email"] = request.POST.get("email")
         sug["Sugestion"] = request.POST.get("suggestion")
-        sug["Organisation"] = Organisation.objects.get(
+        sug["Organisation"] = Organisation.objects.get(  # pylint: disable=no-member
             pk=request.POST.get("organisation")
         )
         current = request.POST.get("current")
@@ -195,19 +213,18 @@ def suggestionForm(request):
 def adminProfilePage(request):
     if request.method == "GET":
         if request.user.profile.is_head:
-            sugest = Suggestion.objects.filter(
-                Organisation__id=request.user.profile.Organisation.id,
-                Read=False,
+            sugest = Suggestion.objects.filter(  # pylint: disable=no-member
+                Organisation__id=request.user.profile.Organisation.id, Read=False,
             )
 
-            sugestAll = Suggestion.objects.filter(
+            sugestAll = Suggestion.objects.filter(  # pylint: disable=no-member
                 Organisation__id=request.user.profile.Organisation.id
             ).order_by("Read")
             len(sugest)
-            sats = Satellite.objects.filter(
+            sats = Satellite.objects.filter(  # pylint: disable=no-member
                 Organisation__id=request.user.profile.Organisation.id
             )
-            users = Profile.objects.filter(
+            users = Profile.objects.filter(  # pylint: disable=no-member
                 Organisation__id=request.user.profile.Organisation.id
             )
             return render(
@@ -222,5 +239,47 @@ def adminProfilePage(request):
                     "empcount": len(users),
                 },
             )
+        else:
+            return render(request, "unauth.html")
+    elif request.method == "POST":
+        if request.user.profile.is_head:
+            for i in request.POST.getlist("tag"):
+                s = Suggestion.objects.get(pk=i)
+                s.Read = True
+                s.save()
+
+            messages.success(request, "Marked As Read !")
+            return redirect("adminprofile")
+
+        else:
+            return render(request, "unauth.html")
+
+
+@login_required(login_url="login")
+def editUserView(request, id):
+    if request.method == "GET":
+        userToBe = User.objects.get(pk=id).profile
+        if (
+            request.user.profile.is_head
+            and userToBe.Organisation.id == request.user.profile.Organisation.id
+        ):
+            sats = Satellite.objects.filter(  # pylint: disable=no-member
+                Organisation__id=request.user.profile.Organisation.id
+            )
+            return render(request, "edituser.html", {"nuser": userToBe, "sats": sats})
+        else:
+            return render(request, "unauth.html")
+    elif request.method == "POST":
+        userToBe = User.objects.get(pk=id).profile
+        if (
+            request.user.profile.is_head
+            and userToBe.Organisation.id == request.user.profile.Organisation.id
+        ):
+            print(request.POST.get("assat"))
+            userToBe.EmployeID = request.POST.get("eid")
+            userToBe.AssociatedSat = Satellite.objects.get(pk=request.POST.get("assat"))
+            userToBe.phone = request.POST.get("phone")
+            userToBe.save()
+            return redirect("adminprofile")
         else:
             return render(request, "unauth.html")

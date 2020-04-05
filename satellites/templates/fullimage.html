@@ -45,26 +45,27 @@
       </div>
       <div class="w3-display-bottomleft w3-container w3-xlarge">
           <p>
-          {% if user.is_authenticated %}
-            {% if user.profile.AssociatedSat.Name == satellite.Name%}
-            <button
-                onclick="document.getElementById('contact').style.display='block'"
-                class="w3-button w3-black"
-            >
-            Edit this page !
+          {% if user.is_authenticated%}
+            {%if user.profile.is_head and user.profile.Organisation.id == satellite.Organisation.id%}
+            <button onclick="document.getElementById('editsat').style.display='block'" class="w3-button w3-black" >
+                Edit This Page ! 
             </button>
+            {% else %}
+                {% if user.profile.AssociatedSat.Name == satellite.Name%}
+                <button onclick="document.getElementById('editsat').style.display='block'" class="w3-button w3-black" >
+                    Edit This Page !
+                </button>
                 {% else %}
-                          <button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black" >
-            Send Suggestions
-          </button>
-
-            {%endif%}
+                <button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black" >
+                    Send Suggestions
+                </button>
+                {% endif %}
+            {% endif %}
           {% else %}
-
           <button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black" >
             Send Suggestions
           </button>
-              {%endif%}
+          {%endif%}
           </p>
       </div>
     </div>
@@ -117,20 +118,20 @@
             class="w3-button w3-display-topright w3-large"
             >x</span
           >
-          <h1>Help us improve</h1>
+        <h1>Help Us Improve</h1>
         </div>
         <div class="w3-container">
           <p>
-            If you find any information to be incorrect or for suggestions
+            if you find any information to be incorrect or for suggestions
             please contact us:
           </p>
-          <form action="{% url "suggest" %}" method="POST">
+          <form action="{% url "suggest" %}" method="post">
               {%csrf_token%}
             <p>
               <input
                 class="w3-input w3-padding-16 w3-border"
                 type="text"
-                placeholder="Name"
+                placeholder="name"
                 required
                 name="name"
               />
@@ -139,7 +140,7 @@
               <input
                 class="w3-input w3-padding-16 w3-border"
                 type="text"
-                placeholder="Email ID"
+                placeholder="email id"
                 required
                 name="email"
               />
@@ -148,27 +149,187 @@
               <input
                 type="hidden"
                 name="current"
-                value="{% url "full" name=satellite.Name%}"
+                value="{% url "full" name=satellite.Name %}"
               />
               <input
                   type="hidden"
                   name="organisation"
-                  value="{{satelllite.Organisation.id}}"
+                  value="{{satellite.Organisation.id}}"
               />
             </p>
             <p>
               <input
                 class="w3-input w3-padding-16 w3-border"
                 type="text"
-                placeholder="Detailed Message"
+                placeholder="detailed message"
                 required
                 name="suggestion"
               />
             </p>
-            <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
+            <p><button class="w3-button" type="submit">Send Message</button></p>
           </form>
         </div>
       </div>
     </div>
   </body>
+
+ <!--Edit Modal-->
+  <div id="editsat" class="w3-modal">
+      <div class="w3-modal-content w3-animate-zoom">
+        <div class="w3-container w3-black">
+          <span
+            onclick="document.getElementById('editsat').style.display='none'"
+            class="w3-button w3-display-topright w3-large"
+            >x</span
+          >
+          <h1>Edit This Satellite</h1>
+        </div>
+        <div class="w3-container">
+          <form action="" method="POST" enctype="multipart/form-data">
+              {%csrf_token%}
+            <p>
+              <div class="name">Country Of Origin</div>
+              <input
+                class="w3-input w3-padding-16 w3-border"
+                type="text"
+                value="{{satellite.CountryOrigin}}"
+                required
+                name="country"
+              />
+            </p>
+            <p>
+              <div class="name">Purpose</div>
+              <input
+                class="w3-input w3-padding-16 w3-border"
+                type="text"
+                value="{{satellite.Purpose}}"
+                required
+                name="purpose"
+              />
+            </p>
+            <p>
+                <div class="name">Class of Orbit</div>
+              <input
+                class="w3-input w3-padding-16 w3-border"
+                type="text"
+                value="{{satellite.ClassOfOrbit}}"
+                required
+                name="orbitclass"
+              />
+            </p>
+            <p>
+              <div class="name">Apogee</div>
+              <input
+                class="w3-input w3-padding-16 w3-border"
+                type="text"
+                value="{{satellite.Apogee}}"
+                required
+                name="apogee"
+              />
+            </p>
+            <p>
+            <div class="name">Perigee</div>
+              <input
+                class="w3-input w3-padding-16 w3-border"
+                type="text"
+                value="{{satellite.Perigee}}"
+                required
+                name="perigee"
+              />
+            </p>
+            <p>
+              <div class="name">Inclination</div>
+              <input
+                class="w3-input w3-padding-16 w3-border"
+                type="text"
+                value="{{satellite.Inclination}}"
+                required
+                name="inclination"
+              />
+            </p>
+            <p>
+              <div class="name">Launch Vehicle</div>
+              <input
+                class="w3-input w3-padding-16 w3-border"
+                type="text"
+                value="{{satellite.LaunchVehicle}}"
+                required
+                name="launchvehicle"
+              />
+            </p>
+            <p>
+              <div class="name">Life Span</div>
+              <input
+                class="w3-input w3-padding-16 w3-border"
+                type="text"
+                value="{{satellite.LifeSpan}}"
+                required
+                name="lifespan"
+              />
+            </p>
+            <p>
+              <div class="name">Time Period</div>
+              <input
+                class="w3-input w3-padding-16 w3-border"
+                type="text"
+                value="{{satellite.TimePeriod}}"
+                required
+                name="timeperiod"
+              />
+            </p>
+            <p>
+              <div class="name">Power</div>
+              <input
+                class="w3-input w3-padding-16 w3-border"
+                type="text"
+                value="{{satellite.Power}}"
+                required
+                name="power"
+              />
+            </p>
+            <p>
+              <div class="name">Mass</div>
+              <input
+                class="w3-input w3-padding-16 w3-border"
+                type="text"
+                value="{{satellite.Mass}}"
+                required
+                name="mass"
+              />
+            </p>
+            <p>
+              <div class="name">Description</div>
+              <input
+                class="w3-input w3-padding-16 w3-border"
+                type="text"
+                value="{{satellite.Description}}"
+                required
+                name="description"
+              />
+            </p>
+            <p>
+            <div class="name">Date of Launch</div>
+              <input
+                class="w3-input w3-padding-16 w3-border"
+                type="date"
+                value="{{satellite.DateOfLaunch}}"
+                required
+                name="launchdate"
+              />
+            </p>
+            <p>
+              <div class="name">Picture</div>
+              <input
+                class="w3-input w3-padding-16 w3-border"
+                type="file"
+                required
+                name="satimage"
+              />
+            </p>
+            <p><button class="w3-button" type="submit">Send Message</button></p>
+          </form>
+        </div>
+      </div>
+    </div>
+
 </html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>Edit User</title>
+
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Main CSS-->
+    <link href="{% static "css/signup-main.css"%}" rel="stylesheet" media="all">
+    <link rel = "icon" href = "signup.png" type = "image/x-icon"> 
+
+</head>
+
+<body>
+    <div class="page-wrapper bg-dark p-t-100 p-b-50">
+        <div class="wrapper wrapper--w900">
+            <div class="card card-6">
+                <div class="card-heading">
+                    <h2 class="title">Edit Employee Profile</h2>
+                </div>
+                <div class="card-body">
+                <ul class="messages">
+                    {% for message in messages %}
+                    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+
+                    <form method="POST" action="" enctype="multipart/form-data">
+                        {%csrf_token%}
+                        <div class="form-row">
+                            <div class="name">Mobile Number</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-6" type="text" name="phone" placeholder="{{nuser.phone}}" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Employee ID</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-6" type="text" name="eid" placeholder="{{nuser.EmployeID}}" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Satellite Associated</div>
+                            
+                                <div class="input-group" >
+                                    <select class=" input--style-6 input-group" style="width: 100%; height: 100%; padding-top:5%; padding-bottom: 5%;" name = 'assat'>
+                                        <option disabled selected value>Select your Satellite</option>
+                                        {% for sat in sats %}
+                                        <option value="{{sat.Name}}">{{sat.Name}}</option>
+                                        {% endfor %}
+                                    </select>
+                            </div>
+                        </div>
+                       
+                        <div class="card-footer">
+                            <input class="btn btn--radius-2 btn--blue-2" type="submit" name="Submit"></input>
+                        </div>
+                    </form>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="{% static "js/vendor/jquery/jquery.min.js"%}"></script>
+
+    <!-- Main JS-->
+    <script src="{% static "js/global.js"%}"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->

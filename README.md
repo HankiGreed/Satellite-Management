@@ -8,7 +8,7 @@
 - [x] Edit satellite
 - [x] Edit User
 - [x] Homepage finalisation
-- [ ] Messages Function (logout, login etc)
+- [x] Messages Function (logout, login etc)
 - [x] Access Restriction for Satellite Editing
 - [x] Edit names and other fields in satellite page
 - [x] Sattellite Description Page Edits
@@ -18,4 +18,5 @@
 - [x] Implement Message Models
 - [x] Admin Page
 - [x] Database purge and remake
+- [ ] Fix marking as unread
 - [ ] Make Site Offline

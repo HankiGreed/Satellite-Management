@@ -35,6 +35,7 @@
             }
 
     </style>
+    <link rel="stylesheet" type="text/css" href="{% static "css/Notifier.min.css"%}">
 </head>
 
 <body>
@@ -186,6 +187,21 @@
 
     <!-- Main JS-->
     <script src="{% static "js/sat-main.js"%}"></script>
+
+    <script src="{% static "js/Notifier.min.js"%}"></script>
+
+    {% if messages %}
+        {% for message in messages %}
+            <script>
+                function notifyHere(type,message) {
+                    var notifier = new Notifier();
+                    var notification = notifier.notify(type,message);
+                    notification.push();
+                }
+                notifyHere("{{message.tags}}","{{message}}")
+            </script>
+        {% endfor %}
+    {% endif %}
 
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 

@@ -29,6 +29,7 @@
       font-family: 'Raleway', sans-serif;
     }
   </style>
+  <link rel="stylesheet" type="text/css" href="{% static "css/Notifier.min.css"%}">
   <body class="w3-light-grey w3-content" style="max-width:1600px">
     <!-- Sidebar/menu -->
     <nav
@@ -275,5 +276,19 @@
         document.getElementById('myOverlay').style.display = 'none';
       }
     </script>
+    <script src="{% static "js/Notifier.min.js"%}"></script>
+
+    {% if messages %}
+        {% for message in messages %}
+            <script>
+                function notifyHere(type,message) {
+                    var notifier = new Notifier();
+                    var notification = notifier.notify(type,message);
+                    notification.push();
+                }
+                notifyHere("{{message.tags}}","{{message}}")
+            </script>
+        {% endfor %}
+    {% endif %}
   </body>
 </html>

@@ -106,7 +106,7 @@ def signupView(request):
                 new_profile.save()
             except:
                 messages.error(request, "Correct the errors in profile form !")
-                return render(request, "signup2.html", {"sats": sats[:5]})
+                return render(request, "signup2.html", {"sats": sats})
             return redirect("homepage")
         else:
             return render(request, "unauth.html")
@@ -127,8 +127,10 @@ def loginView(request):
         user = authenticate(username=username, password=password)
         if user is not None:
             login(request, user)
+            messages.success(request, "Successfully logged in !")
             return redirect("homepage")
         else:
+            messages.error(request, "Incorrect Credentials !")
             return render(request, "login.html")
 
     else:
@@ -280,6 +282,7 @@ def editUserView(request, id):
             userToBe.AssociatedSat = Satellite.objects.get(pk=request.POST.get("assat"))
             userToBe.phone = request.POST.get("phone")
             userToBe.save()
+            messages.success(request, "User Successfully Edited !")
             return redirect("adminprofile")
         else:
             return render(request, "unauth.html")

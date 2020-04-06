@@ -26,11 +26,13 @@
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css" href="{% static "css/util.css"%}">
 <link rel="stylesheet" type="text/css" href="{% static "css/login-main.css"%}">
+<script src="https://www.sowecms.com/demos/statics/prism.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.sowecms.com/demos/statics/prism.css">
+<link rel="stylesheet" type="text/css" href="{% static "css/Notifier.min.css"%}">
 <!--===============================================================================================-->
 
 </head>
 <body>
-	
 	<div class="limiter">
 		<div class="container-login100" style="background-color: black;">
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
@@ -64,6 +66,9 @@
 						<input class="input100" type="password" name="Password" >
 						<span class="focus-input100"></span>
 					</div>
+                    <script charset="utf-8">
+                        console.log("Fuck !")
+                    </script>
 					<div class="container-login100-form-btn m-t-17">
 						<button class="login100-form-btn",type="submit">
 							Sign In
@@ -84,7 +89,6 @@
 			</div>
 		</div>
 	</div>
-	
 
 	<div id="dropDownSelect1"></div>
 	
@@ -104,6 +108,19 @@
     <script src="{% static "js/vendor/countdowntime/countdowntime.js"%}"></script>
 <!--===============================================================================================-->
     <script src="{% static "js/main.js"%}"></script>
+    <script src="{% static "js/Notifier.min.js"%}"></script>
 
+    {% if messages %}
+        {% for message in messages %}
+            <script>
+                function notifyHere(type,message) {
+                    var notifier = new Notifier();
+                    var notification = notifier.notify(type,message);
+                    notification.push();
+                }
+                notifyHere("{{message.tags}}","{{message}}")
+            </script>
+        {% endfor %}
+    {% endif %}
 </body>
 </html>

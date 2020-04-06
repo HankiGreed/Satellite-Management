@@ -26,6 +26,7 @@
       background-size: cover;
     }
   </style>
+  <link rel="stylesheet" type="text/css" href="{% static "css/Notifier.min.css"%}">
   <body>
     <div class="bgimg w3-display-container w3-text-white">
       <div class="w3-display-middle w3-jumbo">
@@ -326,10 +327,24 @@
                 name="satimage"
               />
             </p>
-            <p><button class="w3-button" type="submit">Send Message</button></p>
+            <p><button class="w3-button" type="submit">Save Satellite !</button></p>
           </form>
         </div>
       </div>
     </div>
 
+    <script src="{% static "js/Notifier.min.js"%}"></script>
+
+    {% if messages %}
+        {% for message in messages %}
+            <script>
+                function notifyHere(type,message) {
+                    var notifier = new Notifier();
+                    var notification = notifier.notify(type,message);
+                    notification.push();
+                }
+                notifyHere("{{message.tags}}","{{message}}")
+            </script>
+        {% endfor %}
+    {% endif %}
 </html>

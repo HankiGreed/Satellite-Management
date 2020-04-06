@@ -110,6 +110,7 @@
               }
                           
         </style>
+        <link rel="stylesheet" type="text/css" href="{% static "css/Notifier.min.css"%}">
 
     </head>
     <body>
@@ -340,5 +341,20 @@
         <script src="{% static "js/popper.js"%}"></script>
         <script src="{% static "js/bootstrap.min.js"%}"></script>
         <script src="{% static "js/admin-main.js"%}"></script>
+
+        <script src="{% static "js/Notifier.min.js"%}"></script>
+
+        {% if messages %}
+            {% for message in messages %}
+                <script>
+                    function notifyHere(type,message) {
+                        var notifier = new Notifier();
+                        var notification = notifier.notify(type,message);
+                        notification.push();
+                    }
+                    notifyHere("{{message.tags}}","{{message}}")
+                </script>
+            {% endfor %}
+        {% endif %}
     </body>
 </html>

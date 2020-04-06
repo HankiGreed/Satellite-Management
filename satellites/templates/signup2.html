@@ -9,7 +9,7 @@
     <meta name="description" content="Colorlib Templates">
     <meta name="author" content="Colorlib">
     <meta name="keywords" content="Colorlib Templates">
-
+    <link rel="stylesheet" type="text/css" href="{% static "css/Notifier.min.css"%}">
     <!-- Title Page-->
     <title>Registration Form</title>
 
@@ -30,12 +30,6 @@
                     <h2 class="title">Employee Registration</h2>
                 </div>
                 <div class="card-body">
-                <ul class="messages">
-                    {% for message in messages %}
-                    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
-                    {% endfor %}
-                </ul>
-
                     <form method="POST" action="{% url 'signup'%}" enctype="multipart/form-data">
                         {%csrf_token%}
                         <div class="form-row">
@@ -214,6 +208,20 @@
 
     <!-- Main JS-->
     <script src="{% static "js/global.js"%}"></script>
+    <script src="{% static "js/Notifier.min.js"%}"></script>
+
+    {% if messages %}
+        {% for message in messages %}
+            <script>
+                function notifyHere(type,message) {
+                    var notifier = new Notifier();
+                    var notification = notifier.notify(type,message);
+                    notification.push();
+                }
+                notifyHere("{{message.tags}}","{{message}}")
+            </script>
+        {% endfor %}
+    {% endif %}
 
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 

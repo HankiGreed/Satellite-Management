@@ -72,12 +72,6 @@
             >
             <i class="fa fa-user fa-fw w3-margin-right"></i>Hey {{ user.username }} !!!
             </a><!-- prettier-ignore -->
-            <a
-                href="description/{{user.profile.AssociatedSat.Name}}"
-                onclick="w3_close()"
-                class="w3-bar-item w3-button w3-padding"
-                ><i class="fa fa-envelope fa-fw w3-margin-right"></i>Go To Assigned Satellite</a
-            >
             {% else %}
             <a
             href="{% url "userprofile"%}"

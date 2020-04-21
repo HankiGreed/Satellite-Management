@@ -64,7 +64,7 @@ def signupView(request):
         Organisation=request.user.profile.Organisation
     ):
         sats.append(sat.Name)
-
+    print(sats)
     if request.method == "POST":
         if request.user.profile.is_head:
             user = dict()
@@ -104,7 +104,8 @@ def signupView(request):
 
             try:
                 new_profile.save()
-            except:
+            except Exception as e:
+                print(profile, e)
                 messages.error(request, "Correct the errors in profile form !")
                 return render(request, "signup2.html", {"sats": sats})
             return redirect("homepage")
@@ -229,6 +230,7 @@ def adminProfilePage(request):
             users = Profile.objects.filter(  # pylint: disable=no-member
                 Organisation__id=request.user.profile.Organisation.id
             )
+            print(users)
             return render(
                 request,
                 "admin-prof.html",
